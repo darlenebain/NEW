@@ -1218,6 +1218,7 @@ App Features
   width: 100%;
   float: left;
 }
+
 .mocked-features.style-1 .feature-item .feature-body .feature-title {
   margin-top: 0;
   margin-bottom: 15px;
@@ -1841,7 +1842,7 @@ Faq & Contact
   transition: all 0.3s ease;
 }
 .faq-accordion .panel .panel-heading .panel-title a:before {
-  content: "\f059";
+  content: "\f002";
   font-family: "FontAwesome";
   display: inline-block;
   vertical-align: middle;
