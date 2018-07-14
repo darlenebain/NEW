@@ -48,7 +48,7 @@ html {
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Arial";
   font-size: 17px;
   color: #505050;
   line-height: 28px;
@@ -97,7 +97,7 @@ h6,
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 1.308333;
   font-weight: 600;
-  font-family: "Arial", sans-serif;
+  font-family: "Arial";
   color: #222222;
 }
 
@@ -129,7 +129,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):focus, textarea:
 }
 
 [type=submit] {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -343,7 +343,7 @@ blockquote:before {
 .banner-bottom-content .ride-banner-bottom .ride-content .h6 {
   color: #2c5177;
   font-weight: 600;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   text-transform: uppercase;
   font-size: 16px;
   display: block;
@@ -415,7 +415,7 @@ blockquote:before {
 Buttons
 ------------------------------------*/
 .btn {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   border-radius: 24px;
   font-size: 14px;
   line-height: 28px;
@@ -503,7 +503,7 @@ Buttons
   transition: all 0.3s ease;
 }
 .navbar-default .navbar-nav > li > a {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   color: #505050;
   font-size: 14px;
   font-weight: 600;
@@ -549,7 +549,7 @@ Buttons
 }
 .navbar-default .navbar-nav .dropdown .dropdown-menu > li > a {
   color: #505050;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   padding: 5px 10px;
   text-transform: capitalize;
   font-weight: 500;
@@ -1124,7 +1124,7 @@ App About
   font-size: 30px;
 }
 .counter-items .counter-item .counter-content .counter-body {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
 }
 .counter-items .counter-item .counter-content .counter-body .fact-number {
   font-size: 30px;
@@ -1351,7 +1351,7 @@ Pricing
 .package .package-header {
   text-align: center;
   padding: 24px 30px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
 }
 .package .package-header .pack-name {
   margin: 0;
@@ -1367,7 +1367,7 @@ Pricing
   font-size: 48px;
   line-height: 1;
   font-weight: 600;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   margin-top: 15px;
   margin-bottom: 5px;
   color: #222;
@@ -1479,7 +1479,7 @@ Testimonial
   border: 1px dashed #d6d6d6;
 }
 .testimonials-area.testimonials-text-img .testimonial-slider .testimonial-item blockquote {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   font-size: 24px;
   line-height: 40px;
   border: none;
@@ -1521,7 +1521,7 @@ Testimonial
   margin-bottom: 0;
 }
 .testimonials-area.testimonials-text-img .testimonial-slider .testimonial-item .reviewer-info .commenter .reviewer-position {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   font-size: 16px;
   font-weight: 400;
 }
@@ -1757,7 +1757,7 @@ form {
   padding: 0 30px !important;
 }
 .subscribe-form [type=submit] {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   background-color: #ffffff;
   color: #222;
   font-weight: 600;
@@ -1958,7 +1958,7 @@ Footer
   display: inline-block;
 }
 .footer-bottom .footer-menu li a {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -2008,7 +2008,7 @@ Tab
   text-align: center;
   font-size: 22px;
   font-weight: 400;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   color: #222;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -2080,7 +2080,7 @@ Tab
   text-align: center;
   font-size: 22px;
   font-weight: 400;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   color: #222;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -2169,7 +2169,7 @@ Tab
 }
 .features-tab-2 .tab-navs-area .nav li {
   display: table-cell;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   font-size: 20px;
   font-weight: 500;
   color: #222;
@@ -2363,7 +2363,7 @@ Page
 }
 .page-header .breadcrumb li {
   color: #ffffff;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   font-size: 14px;
   font-weight: 400;
 }
@@ -2430,7 +2430,7 @@ Signup Login
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#35495d));
   background-image: linear-gradient(90deg, #2c5177 0%, #35495d 100%);
   color: #fff;
@@ -2508,7 +2508,7 @@ Blog
   margin-top: 40px;
 }
 .post-list .post .post-content .post-date {
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   font-size: 18px;
   color: #757575;
   margin-bottom: 5px;
@@ -2533,7 +2533,7 @@ Blog
   color: #fff;
   padding: 11px 30px;
   text-transform: uppercase;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   font-weight: 500;
   letter-spacing: 1px;
   border-radius: 20px;
@@ -2741,7 +2741,7 @@ Blog details
 .blog-details-main .post-date {
   text-transform: uppercase;
   font-size: 18px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   color: #757575;
   margin-bottom: 0;
 }
@@ -2872,7 +2872,7 @@ Blog details
   text-transform: uppercase;
   border: 1px solid #e6e6e6;
   letter-spacing: 1px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   font-size: 14px;
   width: 100px;
   height: 35px;
@@ -2930,7 +2930,7 @@ Blog details
 .comment-form [type=submit] {
   font-weight: 600;
   font-size: 14px;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
   letter-spacing: 1px;
   color: #ffffff;
   text-transform: uppercase;
@@ -2998,7 +2998,7 @@ Coming Soon
 }
 .countdown-comingsoon .section_count {
   display: inline-block;
-  font-family: "Barlow", sans-serif;
+  font-family: "Arial";
 }
 .countdown-comingsoon .section_count + .section_count {
   margin-left: 50px;
