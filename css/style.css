@@ -1707,6 +1707,7 @@ Subscribe
 .subscribe-area-2 .subscribe-title {
   font-size: 25px;
   margin-bottom: 35px;
+  font-weight: normal;
   margin-top: 0;
 }
 .subscribe-area-2 .subscription input:not([type=submit]) {
