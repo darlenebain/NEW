@@ -3036,3 +3036,14 @@ Coming Soon
 .comingsoon-social .social li a:hover {
   color: #2c5177;
 }
+
+.accordion ul {
+}
+.accordion li {
+  display: inline;
+  list-style-type: disc;
+  font-style: normal;
+}
+.accordion li a {
+}
+
