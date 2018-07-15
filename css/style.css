@@ -3037,13 +3037,14 @@ Coming Soon
   color: #2c5177;
 }
 
-.accordion ul {
+.ul .accordion{
 }
-.accordion li {
+.li .accordion{
   display: inline;
   list-style-type: disc;
   font-style: normal;
 }
 .accordion li a {
-}
+  list-style-type: disc;
 
+}

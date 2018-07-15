@@ -25,6 +25,9 @@
   .comingsoon-banner .banner-image-style-2 {
     width: 500px;
   }
+  .navbar-brand{
+    height: 45px;
+  }
 }
 @media screen and (max-width: 991px) {
   .section-padding {
@@ -267,7 +270,7 @@
         padding-left: 10px;
         padding-right: 10px;
     }
-    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+    .navbar>.container, .navbar>.container-fluid {
         margin-left: 0;
     }
   .banner .banner-form {
@@ -389,6 +392,10 @@
 
   .comingsoon-social .social {
     text-align: center;
+  }
+  .navbar-brand{
+    height: 45px;
+    margin-left: 25px;
   }
 }
 /*** End 991 ***/
@@ -575,16 +582,15 @@
     margin-bottom: 50px;
   }
 
-
-
-
-
-
-  .fetures {
+  .features {
     margin-bottom: -50px;
   }
-  .fetures .col-sm-4 .future-box {
+  .features .col-sm-4 .future-box {
     margin-bottom: 50px;
+  }
+  .navbar-brand{
+    height: 45px;
+    margin-left: 25px;
   }
 }
 
@@ -631,14 +637,16 @@
     margin-top: 0;
   }
 
-
-
   .download-tab .tab-navs-area li {
     margin: 10px 0;
     width: 100%;
   }
   .download-tab .tab-navs-area li + li {
     margin: 10px 0;
+  }
+  .navbar-brand{
+    height: 45px;
+    margin-left: 25px;
   }
 
 }
@@ -668,15 +676,9 @@
     margin-left: 0 !important;
     margin-top: 20px;
   }
-
   .testimonials-area.testimonials-text-img .testimonial-slider {
     width: 100%;
   }
-
-
-
-
-
 
   .footer-bottom .footer-menu li {
     margin: 0 10px;
@@ -684,7 +686,6 @@
   .footer-bottom .footer-menu li + li {
     margin: 0 10px;
   }
-  
   .subscribe-area-2 .subscription input:not([type=submit]) {
     width: 100% !important;
   }
@@ -699,6 +700,9 @@
     width: 100%;
     margin: 0;
   }
-
+  .navbar-brand{
+    height: 45px;
+    margin-left: 25px;
+  }
 
 }
