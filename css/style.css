@@ -3111,3 +3111,26 @@ ul{
   75% { opacity: 0.75; }
   100% { opacity: 1; }
 }
+
+
+
+
+.footer-bar {
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.footer-bar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer-bar a:hover {
+  color: #2c5177;
+}

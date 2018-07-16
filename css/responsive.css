@@ -705,5 +705,7 @@
     height: 45px;
     margin-left: 25px;
   }
-
+  .footer-bar a {
+    font-size: 10px;
+}
 }
