@@ -51,14 +51,14 @@ body {
   font-family: "Arial";
   font-size: 17px;
   color: #505050;
-  line-height: 1.1em;
+  line-height: 1.2em;
   font-weight: 300;
 }
 
 p {
   font-size: 17px;
   font-weight: 300;
-  line-height: 1.1em;
+  line-height: 1.2em;
 }
 p:last-child {
   margin-bottom: 0;
@@ -95,7 +95,7 @@ h6,
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  line-height: 1.1;
+  line-height: 1.2;
   font-weight: 600;
   font-family: "Arial";
   color: #222222;
@@ -822,11 +822,12 @@ Buttons
   font-size: 18px;
   line-height: 30px;
 }
+
 .banner .banner-item.banner-item-style-2 .banner-content .banner-text.white-color {
   color: #ffffff;
 }
 .banner .banner-item.banner-item-style-2 .banner-content .banner-form {
-  margin-top: 40px;
+  margin-top: 0px;
   max-width: 420px;
 }
 .banner .banner-item.banner-item-style-2 .banner-content .banner-form [type=email] {
@@ -965,7 +966,7 @@ Buttons
   right: 120px;
 }
 .banner .banner-item.banner-item-style-6 {
-  height: 940px;
+  height: 850px;
 }
 .banner .banner-item.banner-item-style-6 .banner-content {
   margin-top: -30px;
@@ -2194,7 +2195,7 @@ Tab
   background-color: transparent;
 }
 .features-tab-2 .tab-content-area .tab-content {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 .features-tab-2 .tab-content-area .tab-content .tab-pane img {
   max-width: 100%;
@@ -2312,6 +2313,7 @@ Feature
   right: -50px;
 }
 
+
 .feature-box {
   background-color: #fff;
   padding: 20px;
@@ -2342,6 +2344,13 @@ Feature
 /*------------------------------------
 Page
 ------------------------------------*/
+.page-header2 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#35495d));
+  background-image: linear-gradient(90deg, #2c5177 0%, #35495d 100%);
+  margin: 0;
+  padding: 80px;
+  text-align: center;
+}
 .page-header {
   background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#35495d));
   background-image: linear-gradient(90deg, #2c5177 0%, #35495d 100%);
@@ -3068,4 +3077,37 @@ Coming Soon
 .post-title{
   margin-top: 25px;
   margin-top: 25px;
+}
+ul{
+  display: inline;
+  list-style-type: disc;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin-left: 15px;
+}
+
+.element1 {
+    animation-name: example;
+    animation-duration: 4s;
+   animation-iteration-count: 10;
+}
+.element2 {
+    animation-name: example;
+    animation-duration: 4s;
+   animation-iteration-count: 10;
+  animation-delay: 0.5s;
+}
+.element3 {
+    animation-name: example;
+    animation-duration: 4s;
+   animation-iteration-count: 10;
+  animation-delay: 1s;
+}
+@keyframes example {
+  0% { opacity: 0; }
+  25% { opacity: 0.25; }
+  50% { opacity: 0.5; }
+  75% { opacity: 0.75; }
+  100% { opacity: 1; }
 }
