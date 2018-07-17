@@ -3037,6 +3037,13 @@ ul{
   position: relative;
 
 }
+.bannernoimage{
+  padding-top: 150px;
+  background-color: #2c5177;
+  width: 100%;
+  position: relative;
+
+}
 .text-block {
     float: inside;
     position: absolute;
@@ -3066,4 +3073,8 @@ ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.applicationform{
+    float:left;
+    width: 40%;
 }
