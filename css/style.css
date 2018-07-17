@@ -1014,6 +1014,7 @@ Buttons
 .banner .banner-image-style-3 img {
   width: 900px;
   margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .full-vh {
