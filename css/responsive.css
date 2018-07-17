@@ -86,21 +86,22 @@
     border-radius: 0;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    margin-top: 0px;
+    margin-top: 25px;
     margin-bottom: 15px;
     margin-right: 0;
-    border-color: #3aa6fe;
   }
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: transparent;
+    color: transparent;
   }
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: #3aa6fe;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
   }
   .navbar-default .navbar-toggle.collapsed {
     background-color: transparent;
+    color: transparent;
+
   }
   .navbar-default .navbar-collapse {
     border-top: 1px solid transparent;
@@ -183,11 +184,12 @@
     color: #ffffff;
   }
   .navbar-default.theme-bg-nav .navbar-toggle {
-    border-color: #ffffff;
+    color: transparent;
     background-color: transparent;
   }  
   .navbar-default.theme-bg-nav .navbar-toggle .icon-bar {
-    background-color: #ffffff;
+    background-color: transparent;
+    color: transparent;
   }
   .navbar-default.theme-bg-nav .navbar-collapse {
     background-color: #1abb9c;
@@ -195,11 +197,6 @@
   .navbar-default.theme-bg-nav .navbar-nav li.dropdown:before {
     color: #ffffff;
   }
-
-
-
-
-
   .navbar-default.default-bg-nav .navbar-nav > li > a {
     color: #505050;
   }
@@ -210,8 +207,8 @@
     display: inline-block;
   }
   .navbar-default.default-bg-nav .navbar-toggle {
-    border-color: #ffffff;
-    background-color: #ffffff;
+    border-color: transparent;
+    background-color: transparent;
   }
   .navbar-default.default-bg-nav .navbar-toggle.collapsed {
     background-color: transparent;
@@ -395,19 +392,13 @@
     text-align: center;
   }
   .navbar-brand{
+    margin-top: 5px;
     height: 45px;
     margin-left: 25px;
   }
 }
 /*** End 991 ***/
 @media screen and (max-width: 767px) {
-
-  .sidebar {
-    padding-left: 0;
-  }
-  .sidebar:before {
-    width: 100%;
-  }
 
   .section-padding {
     padding: 60px 0;
@@ -444,7 +435,7 @@
   }
   .banner .banner-item.banner-item-style-1 .banner-bg-1 .banner-content {
     text-align: center;
-    margin-top: 0;
+    margin-top: 0px;
   }
   .banner .banner-item.banner-item-style-1 .banner-bg-1 .banner-content .play-button {
     left: 0;
@@ -475,7 +466,7 @@
     top: 110px;
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    margin-top: 0;
+    margin-top: 25px;
   }
   .banner .banner-item.banner-item-style-5 .mock-slider {
     width: 100%;
@@ -540,10 +531,6 @@
 
   .post-list.post-classic .post-content {
     margin-top: 20px;
-  }
-
-  .sidebar {
-    margin-top: 50px;
   }
 
   .features-tab .nav-tabs li {
