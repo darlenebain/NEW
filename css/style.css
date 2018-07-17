@@ -1607,11 +1607,10 @@ Testimonial
   line-height: 55px;
   border-radius: 50%;
 }
-
 .client-logo-area {
-  margin-top: 25px;
+  margin-top: 110px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-bottom: -50px;
 }
 .client-logo-area .client-logo {
   height: 60px;
@@ -1624,7 +1623,7 @@ Testimonial
 .client-logo-area .client-logo img {
   max-width: 100%;
 }
-.client-logo-area .client-logo img:hover {
+.client-logo-area .client-logo:hover {
   opacity: 1;
 }
 .client-logo-area.style-2 {
@@ -2592,167 +2591,6 @@ Blog
 }
 
 /*------------------------------------
-Sidebar
-------------------------------------*/
-.sidebar {
-  float: left;
-  width: 100%;
-  padding-left: 45px;
-}
-.blog {
-  overflow: hidden;
-}
-.sidebar:before {
-  content: "";
-  background: #f7f7f7;
-  width: 600px;
-  position: absolute;
-  height: 100%;
-  left: 0;
-  z-index: -1;
-}
-.sidebar .widget {
-  float: left;
-  width: 100%;
-  border-bottom: 1px solid #e6e6e6;
-  padding-bottom: 40px;
-  margin-bottom: 50px;
-  margin-top: 50px;
-}
-.sidebar .widget + .widget {
-  margin-top: 0;
-}
-.sidebar .widget:last-child {
-  padding-bottom: 0;
-  border-bottom: none;
-}
-.sidebar .widget .widget-title {
-  margin-top: 0;
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  line-height: 19px;
-  padding: 0px 0px 10px 0;
-  margin-bottom: 20px;
-}
-.sidebar .widget form {
-  position: relative;
-}
-.sidebar .widget form input:not([type=submit]):not([type=radio]):not([type=checkbox]),
-.sidebar .widget form select,
-.sidebar .widget form textarea {
-  font-size: 1.4rem;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 400;
-  line-height: 2rem;
-  border: 1px solid #e2e2e2;
-  padding: 12px 20px;
-  border-radius: 3px;
-  margin-bottom: 0;
-}
-.sidebar .widget label {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 1.4rem;
-  font-weight: 400;
-  margin-bottom: 10px;
-  display: block;
-}
-.sidebar .widget .sidebar-search [type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  line-height: 20px;
-  padding: 12px 20px;
-  border: 1px solid transparent;
-  background-color: transparent;
-}
-.sidebar .widget .widget-subscription [type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  line-height: 20px;
-  padding: 12px 20px;
-  border: 1px solid transparent;
-  background-color: transparent;
-}
-.sidebar .widget ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.sidebar .widget ul li a {
-  display: inline-block;
-  color: #505050;
-  line-height: 40px;
-  color: #505050;
-  font-size: 17px;
-}
-.sidebar .widget ul li a:before {
-  content: "\f1db";
-  font-family: "FontAwesome";
-  margin-right: 6px;
-  font-size: 12px;
-  color: #505050;
-}
-.sidebar .widget ul li a:hover {
-  color: #2c5177;
-}
-.sidebar .widget ul li a:hover:before {
-  color: #2c5177;
-}
-.sidebar .widget-posts {
-  float: left;
-  width: 100%;
-}
-.sidebar .widget-posts .widget-post {
-  float: left;
-  width: 100%;
-}
-.sidebar .widget-posts .widget-post + .widget-post {
-  margin-top: 25px;
-}
-.sidebar .widget-posts .widget-post .widget-thumb {
-  display: inline-block;
-  width: 70px;
-  float: left;
-  margin-right: 20px;
-}
-.sidebar .widget-posts .widget-post .widget-thumb + .widget-post-content {
-  float: left;
-  width: calc(100% - 90px);
-}
-.sidebar .widget-posts .widget-post .widget-post-title {
-  font-size: 17px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #222;
-}
-.sidebar .widget-posts .widget-post .widget-post-title:hover {
-  color: #2c5177;
-}
-.sidebar .widget-posts .widget-post .widget-post-date {
-  margin-top: 5px;
-  margin-bottom: 0;
-  font-size: 15px;
-  color: #505050;
-}
-.sidebar .tags a {
-  display: inline-block;
-  font-size: 15px;
-  color: #505050;
-  border: 1px solid #e1e1e1;
-  line-height: 23px;
-  padding: 5px 25px;
-  margin-right: 6px;
-  margin-bottom: 10px;
-}
-.sidebar .tags a:hover {
-  color: #2c5177;
-  border-color: #2c5177;
-}
-
-/*------------------------------------
 Blog details
 ------------------------------------*/
 .blog-details-main .details-thumb {
@@ -3222,4 +3060,10 @@ ul{
 }
 .newsrow{
   padding-top: 25px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
