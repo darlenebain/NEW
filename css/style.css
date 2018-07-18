@@ -165,7 +165,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):focus, textarea:
 }
 
 .section-header {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .section-header2 {
   margin-bottom: 20px;
@@ -314,9 +314,11 @@ blockquote:before {
   margin: 0;
   padding: 0;
   margin-top: 15px;
+  list-style-position: inside;
 }
 .list-items li {
   line-height: 3rem;
+  list-style-position: inside;
 }
 .list-items li .fa {
   margin-right: 15px;
@@ -701,7 +703,7 @@ Buttons
   position: relative;
 }
 .banner .banner-item {
-  height: 768px;
+  height: 600px;
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -2077,6 +2079,7 @@ Tab
 }
 .how-it-work-tabs .tab-content .tab-pane .list-items li {
   line-height: 3rem;
+  list-style-position: inside;
 }
 .how-it-work-tabs .tab-content .tab-pane .list-items li .fa {
   margin-right: 15px;
