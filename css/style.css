@@ -34,7 +34,6 @@
 21. Signup Login
 22. 404
 23. Blog
-24. Sidebar
 25. Blog Details
 26. Coming Soon
 
@@ -3089,14 +3088,10 @@ ul{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.applicationform{
-    margin: auto;
-    width: 40%;
-}
+
 /*------------------------------------
 Sticky icon bar
 ------------------------------------*/
-
 
 .icon-bar {
     position: fixed;
@@ -3106,7 +3101,6 @@ Sticky icon bar
     transform: translateY(-50%);
 }
 
-/* Style the icon bar links */
 .icon-bar a {
     display: block;
     text-align: center;
@@ -3117,7 +3111,6 @@ Sticky icon bar
     border-radius: 2px;
 }
 
-/* Style the social media icons with color, if you want */
 .icon-bar a:hover {
     background-color: #000;
 }
@@ -3169,6 +3162,10 @@ Sticky icon bar
   color: #1abb9c;
   margin-left: -1.5em;
 }
+
+/*------------------------------------
+Animations
+------------------------------------*/
 .fade-out {
   -webkit-transition:opacity .5s ease-out;
   -moz-transition:opacity .5s ease-out;
@@ -3176,7 +3173,6 @@ Sticky icon bar
   -o-transition:opacity .5s ease-out;
   transition:opacity .5s ease-out;
 }
-
 .fade-out:hover {
   opacity:0.2;
 }
@@ -3221,4 +3217,26 @@ Sticky icon bar
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
+}
+/*------------------------------------
+Form
+------------------------------------*/
+.form-check-label {
+    font-weight: 400;
+    margin-left: 1rem;
+}
+.form-check {
+    font-weight: 400;
+    padding: 10px;
+}
+.form-check-input {
+    margin-top: .3rem;
+    font-weight: 400;
+}
+.form-group {
+    padding: 10px;
+}
+.applicationform{
+    margin: auto;
+    width: 100%;
 }

@@ -1,10 +1,6 @@
 
 
 @media screen and (max-width: 1199px) {
-  .applicationform{
-    float:left;
-    width: 50%;
-  }
   .banner .banner-image-1 img {
     width: 700px;
   }
@@ -35,10 +31,6 @@
   }
 }
 @media screen and (max-width: 991px) {
-  .applicationform{
-    float:left;
-    width: 50%;
-  }
   .section-padding {
     padding: 80px 0;
   }
@@ -407,10 +399,6 @@
 }
 /*** End 991 ***/
 @media screen and (max-width: 767px) {
-  .applicationform{
-    float:left;
-    width: 80%;
-  }
 
   .section-padding {
     padding: 60px 0;
@@ -597,10 +585,7 @@
 
 
 @media screen and (max-width: 579px) {
-  .applicationform{
-    float:left;
-    width: 100%;
-  }
+
   .col-xs-6 {
     width: 100%;
   }
@@ -655,10 +640,7 @@
 
 }
 @media screen and (max-width: 479px) {
-  .applicationform{
-    float:left;
-    width: 100%;
-  }
+
   .banner .banner-item .banner-content .banner-title {
     font-size: 30px !important;
     line-height: 40px !important;
