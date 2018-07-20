@@ -580,6 +580,9 @@
     height: 45px;
     margin-left: 25px;
   }
+    .container{
+    margin-left:25px;
+  }
 }
 
 
@@ -637,7 +640,18 @@
     height: 45px;
     margin-left: 25px;
   }
-
+    .container{
+    margin-left:30px;
+  }
+      .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 10px;
+    border-radius: 2px;
+}
 }
 @media screen and (max-width: 479px) {
 
@@ -696,5 +710,17 @@
   }
   .footer-bar a {
     font-size: 10px;
+}
+  .container{
+    margin-left:25px;
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 10px;
+    border-radius: 2px;
 }
 }

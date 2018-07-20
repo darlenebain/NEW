@@ -3286,3 +3286,39 @@ svg {
 @keyframes stroke-offset{
             100% {stroke-dashoffset: -35%;}
 }
+.fbi-container {
+  background: #34495e;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-family: ColorTube;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 80px;
+  font-weight: 600;
+  color: white;
+  border-radius: 15px;
+  padding-top: 25%;
+  margin: 0 auto;
+}
+
+h3 a {
+ display : block;
+  float: left;
+text-align: left;
+  position: relative;
+}
+.tester img{
+    float: right;
+    display: inline-block;
+    vertical-align: center;
+    position: relative;
+    padding: 0px 0px 0px 17px;
+    height: 35px;
+    margin-bottom: -11px;
+
+}
+
+.tester h3{
+    display: inline-block;
+}
