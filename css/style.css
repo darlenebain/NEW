@@ -3046,16 +3046,22 @@ ul{
   width: 100%;
 }
 .bannerwithimage{
-  background-color: #2c5177;
   width: 100%;
   position: relative;
+  background: #2c5177;
+  background: -webkit-linear-gradient(#527291, #293f50);
+  background:    -moz-linear-gradient(#527291, #293f50);
+  background:         linear-gradient(#527291, #293f50);
 
 }
 .bannernoimage{
   padding-top: 150px;
-  background-color: #2c5177;
   width: 100%;
   position: relative;
+    background: #2c5177;
+  background: -webkit-linear-gradient(#527291, #293f50);
+  background:    -moz-linear-gradient(#527291, #293f50);
+  background:         linear-gradient(#527291, #293f50);
 }
 .text-block {
     float: inside;
