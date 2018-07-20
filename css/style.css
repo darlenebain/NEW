@@ -2407,6 +2407,15 @@ Page
 /*------------------------------------
 Signup Login
 ------------------------------------*/
+.login-area{
+  margin: 0 auto;
+  height: 90%;
+
+}
+.signup-area{
+  margin: 0 auto;
+  height: 90%;
+}
 .signup-area, .login-area {
   background-color: #f7f7f7;
 }
@@ -2415,6 +2424,7 @@ Signup Login
   max-width: 400px;
   padding-top: 100px;
   background-color: #f7f7f7;
+  margin: 0 auto;
 }
 .signup-area .signup-login-bg .account-form .form-header, .login-area .signup-login-bg .account-form .form-header {
   width: 100%;
@@ -2511,6 +2521,8 @@ Signup Login
 
 .login-area .account-form {
   padding-top: 150px !important;
+  margin: 0 auto;
+
 }
 
 /*------------------------------------
@@ -3327,4 +3339,10 @@ text-align: left;
 
 .tester h3{
     display: inline-block;
+}
+.signupbox {
+  padding: 10px;
+  border: 1px solid black ;
+  border-radius: 15px;
+  background-color: inherit;
 }
