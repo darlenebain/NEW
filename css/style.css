@@ -2408,12 +2408,11 @@ Page
 Signup Login
 ------------------------------------*/
 .login-area{
-  margin: 0 auto;
+  margin: 0;
   height: 90%;
-
 }
 .signup-area{
-  margin: 0 auto;
+  margin: 0;
   height: 90%;
 }
 .signup-area, .login-area {
@@ -2524,7 +2523,12 @@ Signup Login
   margin: 0 auto;
 
 }
-
+.signupbox {
+  padding: 10px;
+  border: 1px solid #bdc3c7 ;
+  border-radius: 15px;
+  background-color: inherit;
+}
 /*------------------------------------
 404
 ------------------------------------*/
@@ -3340,9 +3344,6 @@ text-align: left;
 .tester h3{
     display: inline-block;
 }
-.signupbox {
-  padding: 10px;
-  border: 1px solid black ;
-  border-radius: 15px;
-  background-color: inherit;
-}
+
+
+
