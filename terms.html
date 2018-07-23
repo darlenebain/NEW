@@ -10,7 +10,9 @@
     <meta name="description" content="Privacy Policy">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/greekstyle.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Google Fonts -->
@@ -22,13 +24,41 @@
            --->
 </head>
 <body>
+    <!-- Header -->
+    <nav class="navbar navbar-default theme-bg-nav" data-spy="affix" data-offset-top="20">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+             <!--       <span class="sr-only">Toggle navigation</span> -->
+                    <span><i class="fa fa-bars" style="color: white; font-size: 24px;"></i></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logos/logofbi.png" alt="FBI Logo" height="45px"></a>
+            </div>
 
-
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Overview</a></li>
+                    <li class="dropdown"><a href="features.html">Features</a></li>
+                    <li><a href="funding.html">Funding</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li class="solid-item"><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Banner -->
+    <div class="bannernoimage">
+    </div>
+    <div class="section">
+
+        <div class="container" style="padding-top: 60px;">
+
+
+    <!-- Banner
    
        <div class="signup-area section-padding gray-bg">
-        <div class="container">
+        <div class="container"> --->
             <h4 class="banner-title">1. Agreement</h4>
             <p class="banner-text">FBI has developed services (the "Services") which include, without limitation: (a) the FBI Website at: https://www.fbi.co.uk, user interface as well as any programming fixes, modifications, enhancements, improvements, updates, additions, derivative works and related material (the "FBI Website") and (b) data, that includes without limitation data provided by third parties, which is made available via the FBI Website (the "Data").</p>
 			<p class="banner-text">FBI's privacy and cookies policies, which are updated from time to time, and copies of which can be found at https://fbi.co.uk/privacy and https://fbi.co.uk/cookie-policy (the "Privacy and Cookies Policies"), set out the terms on which FBI uses cookies and processes any personal data it collects from you or that you provide to FBI.</p>
@@ -77,18 +107,27 @@
       		<p class="banner-text">The Agreement and any dispute or claim arising out of, or in connection with it or its subject matter or formation, shall be governed by and construed in accordance with the laws of England and Wales.  The party irrevocably agree that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim that arises out of or in connection with the Agreement.</p>
 
         </div>
-        <!-- footer -->
-         <footer>
+    </div>
+    <!--- Sticky sidebar --->
+
+    <div class="icon-bar">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+          <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+    </div>
+    <!--- Sticky sidebar --->
+
+    <!-- footer -->
+        <footer>
             <div>
-                <div class="container">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="src/privacy.html">PRIVACY</a></li>
-                        <li><a href="src/terms.html">TERMS</a></li>
-                        <li><a href="src/legal.html">FBI Copyright 2018</a></li>
-                    </ul>
+                <div class="container footer-bar">
+                        <a href="privacy.html">PRIVACY</a>
+                        <a href="terms.html">TERMS</a>
+                        <a href="legal.html">FreeBusinessInformation.co.uk Copyright 2018</a>
                 </div>
             </div> <!-- #et-footer-nav -->
         </footer> <!-- #main-footer -->
+
 
     <!-- Script -->
     <script src="assets/js/jquery.min.js"></script>
