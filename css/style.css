@@ -2758,19 +2758,20 @@ Signup Login
 
 .signup-area, .login-area {
     background-color: #f7f7f7;
+    text-align: center;
 }
 
 .signup-area .signup-login-bg .account-form, .login-area .signup-login-bg .account-form {
     max-width: 400px;
-    padding-top: 100px;
     background-color: #f7f7f7;
-    margin: 0 auto;
+    margin: auto;
+    text-align: left;
 }
 
 .signup-area .signup-login-bg .account-form .form-header, .login-area .signup-login-bg .account-form .form-header {
     width: 100%;
     float: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .signup-area .signup-login-bg .account-form .form-header .title, .login-area .signup-login-bg .account-form .form-header .title {
@@ -2880,13 +2881,12 @@ Signup Login
 }
 
 .login-area .account-form {
-    padding-top: 150px !important;
+    padding-top: 50px !important;
     margin: 0 auto;
-
 }
 
 .signupbox {
-    padding: 10px;
+    padding-top: 80px;
     border: 1px solid #bdc3c7;
     border-radius: 15px;
     background-color: inherit;
