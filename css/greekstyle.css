@@ -394,136 +394,154 @@ blockquote:before {
   background-image: linear-gradient(90deg, #2c5177 0%, #2c5177 100%);
 }
 /*------------------------------------
-Signup
+Signup Login
 ------------------------------------*/
-.login-area{
-  margin: 0 ;
-  height: 90%;
-  max-width: 100%;
-  border: none;
-
+.login-area {
+    margin: 0;
+    height: 90%;
 }
-.signup-area{
-  margin: 0 ;
-  height: 90%;
-  border: none;
-    max-width: 100%;
 
+.signup-area {
+    margin: 0;
+    height: 90%;
 }
+
 .signup-area, .login-area {
-  background-color: #f7f7f7;
+    background-color: #f7f7f7;
+    text-align: center;
 }
 
 .signup-area .signup-login-bg .account-form, .login-area .signup-login-bg .account-form {
-  max-width: 400px;
-  padding-top: 100px;
-  background-color: #f7f7f7;
-  margin: 0 auto;
+    max-width: 400px;
+    background-color: #f7f7f7;
+    margin: auto;
+    text-align: left;
 }
+
 .signup-area .signup-login-bg .account-form .form-header, .login-area .signup-login-bg .account-form .form-header {
-  width: 100%;
-  float: left;
-  margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
 }
+
 .signup-area .signup-login-bg .account-form .form-header .title, .login-area .signup-login-bg .account-form .form-header .title {
-  float: left;
-  width: 50%;
-  font-weight: 400;
+    float: left;
+    width: 50%;
+    font-weight: 400;
 }
+
 .signup-area .signup-login-bg .account-form .form-header .link, .login-area .signup-login-bg .account-form .form-header .link {
-  width: 50%;
-  float: left;
-  text-align: right;
-  margin-top: 15px;
-  font-size: 15px;
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin-top: 15px;
+    font-size: 15px;
 }
+
 .signup-area .signup-login-bg .account-form .form-header .link a, .login-area .signup-login-bg .account-form .form-header .link a {
-  color: #2c5177;
+    color: #2c5177;
 }
+
 .signup-area .signup-login-bg .account-form button, .signup-area .signup-login-bg .account-form input, .signup-area .signup-login-bg .account-form select, .signup-area .signup-login-bg .account-form textarea, .login-area .signup-login-bg .account-form button, .login-area .signup-login-bg .account-form input, .login-area .signup-login-bg .account-form select, .login-area .signup-login-bg .account-form textarea {
-  border-color: #dcdcdc;
-  border-radius: 5px;
+    border-color: #dcdcdc;
+    border-radius: 5px;
 }
+
 .signup-area .signup-login-bg .account-form .terms, .login-area .signup-login-bg .account-form .terms {
-  display: block;
-  font-weight: 300;
-  margin-top: 5px;
+    display: block;
+    font-weight: 300;
+    margin-top: 5px;
 }
+
 .signup-area .signup-login-bg .account-form .terms a, .login-area .signup-login-bg .account-form .terms a {
-  color: #2c5177;
+    color: #2c5177;
 }
+
 .signup-area .signup-login-bg .account-form .forget-tearm, .login-area .signup-login-bg .account-form .forget-tearm {
-  font-size: 15px;
+    font-size: 15px;
 }
+
 .signup-area .signup-login-bg .account-form .forget-tearm .remember, .login-area .signup-login-bg .account-form .forget-tearm .remember {
-  font-weight: 300;
+    font-weight: 300;
 }
+
 .signup-area .signup-login-bg .account-form .forget-tearm a, .login-area .signup-login-bg .account-form .forget-tearm a {
-  float: right;
-  color: #757575;
+    float: right;
+    color: #757575;
 }
+
 .signup-area .signup-login-bg .account-form .signup-btn, .login-area .signup-login-bg .account-form .signup-btn {
-  width: 100%;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 14px;
-  font-family: "Arial";
-  background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#35495d));
-  background-image: linear-gradient(90deg, #2c5177 0%, #35495d 100%);
-  color: #fff;
-  margin-top: 20px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Arial";
+    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#35495d));
+    background-image: linear-gradient(90deg, #2c5177 0%, #35495d 100%);
+    color: #fff;
+    margin-top: 20px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
+
 .signup-area .signup-login-bg .account-form .signup-btn:hover, .login-area .signup-login-bg .account-form .signup-btn:hover {
-  background-color: #2c5177;
+    background-color: #2c5177;
 }
+
 .signup-area .signup-login-bg .login-with-social, .login-area .signup-login-bg .login-with-social {
-  width: 400px;
-  margin-top: 30px;
+    width: 400px;
+    margin-top: 30px;
 }
+
 .signup-area .signup-login-bg .login-with-social .or-section, .login-area .signup-login-bg .login-with-social .or-section {
-  background-image: url(../images/or-section.png);
-  background-repeat: no-repeat;
-  background-position: center;
+    background-image: url(../images/or-section.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .signup-area .signup-login-bg .login-with-social .social-logins, .login-area .signup-login-bg .login-with-social .social-logins {
-  text-align: center;
-  margin-top: 30px;
+    text-align: center;
+    margin-top: 30px;
 }
+
 .signup-area .signup-login-bg .login-with-social .social-logins a, .login-area .signup-login-bg .login-with-social .social-logins a {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  font-size: 15px;
-  line-height: 45px;
-  color: #fff;
-  display: inline-block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 45px;
+    color: #fff;
+    display: inline-block;
 }
+
 .signup-area .signup-login-bg .login-with-social .social-logins a + a, .login-area .signup-login-bg .login-with-social .social-logins a + a {
-  margin-left: 15px;
+    margin-left: 15px;
 }
+
 .signup-area .signup-login-bg .login-with-social .social-logins .facebook-login, .login-area .signup-login-bg .login-with-social .social-logins .facebook-login {
-  background-color: #3b5998;
+    background-color: #3b5998;
 }
+
 .signup-area .signup-login-bg .login-with-social .social-logins .gplus-login, .login-area .signup-login-bg .login-with-social .social-logins .gplus-login {
-  background-color: #ea4335;
+    background-color: #ea4335;
 }
+
 .signup-area .signup-login-bg .login-with-social .social-logins .twitter-login, .login-area .signup-login-bg .login-with-social .social-logins .twitter-login {
-  background-color: #1da1f2;
+    background-color: #1da1f2;
 }
 
 .login-area .account-form {
-  padding-top: 150px !important;
-  margin: 0 auto;
+    padding-top: 50px !important;
+    margin: 0 auto;
+}
 
-}
 .signupbox {
-  padding: 10px;
-  border: 1px solid #bdc3c7 ;
-  border-radius: 15px;
-  background-color: inherit;
+    padding-top: 80px;
+    border: 1px solid #bdc3c7;
+    border-radius: 15px;
+    background-color: inherit;
 }
+
 /*------------------------------------
 404
 ------------------------------------*/
