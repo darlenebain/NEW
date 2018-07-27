@@ -225,7 +225,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):focus, textarea:
 }
 
 .gray-bg {
-    background-color: #f0f4f6;
+    background-color: #f7fafc;
 }
 
 .mocks-background {
@@ -2928,21 +2928,31 @@ Signup Login
 /*------------------------------------
 Blog
 ------------------------------------*/
+
 .post-list .post .post-content {
-    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #ffffff;
+    color: #5a6470;
+    background: #ffffff;
+    float: left;
+    padding: 20px 20px;
 }
 
 .post-list .post .post-content .post-date {
-    font-family: "Arial";
-    font-size: 18px;
+    font-size: 15px;
     color: #757575;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    text-align: left;
 }
 
 .post-list .post .post-content .post-title {
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #bdc3c7;
 }
 
 .post-list .post .post-content .post-title a {
@@ -2963,7 +2973,6 @@ Blog
     color: #fff;
     padding: 11px 30px;
     text-transform: uppercase;
-    font-family: "Arial";
     font-weight: 500;
     letter-spacing: 1px;
     border-radius: 20px;
@@ -2975,7 +2984,7 @@ Blog
 }
 
 .post-list.post-classic .post {
-    text-align: center;
+    text-align: left;
 }
 
 .post-list.post-classic .post + .post {
@@ -2999,12 +3008,13 @@ Blog
 }
 
 .post-list.post-list .post .post-content .post-title {
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 .post-list.post-list .post .post-content .post-excerpt {
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 .post-list.post-list .post .post-content .post-readmore {
@@ -3016,12 +3026,12 @@ Blog details
 ------------------------------------*/
 .blog-details-main .details-thumb {
     margin-bottom: 40px;
+    padding-top: 140px;
 }
 
 .blog-details-main .post-date {
     text-transform: uppercase;
     font-size: 18px;
-    font-family: "Arial";
     color: #757575;
     margin-bottom: 0;
 }
@@ -3029,8 +3039,9 @@ Blog details
 .blog-details-main .post-title {
     font-size: 30px;
     line-height: 45px;
+    color: #757575;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .details-footer {
@@ -3177,7 +3188,7 @@ Blog details
     font-family: "Arial";
     font-size: 14px;
     width: 100px;
-    height: 35px;
+   height: 35px;
     line-height: 35px;
     border-radius: 17px;
     text-align: center;
