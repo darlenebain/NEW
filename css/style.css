@@ -332,18 +332,27 @@ blockquote:before {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-
-.list-items {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 15px;
-    list-style-position: inside;
+.list-items, .list-items ul {
+  margin-top: 0;
+  padding-left: 3em;
+  list-style-type: none;
 }
 
 .list-items li {
     line-height: 3rem;
-    list-style-position: inside;
+    margin-left: 30px;
+}
+
+.list-items li:before {
+  position: absolute;
+  margin-left: -1.3em;
+  font-weight: normal;
+}
+
+.list-items li.tick:before {
+    content:"\2713";
+    color: #34495e;
+    font-weight: bold;
 }
 
 .list-items li .fa {
@@ -3671,29 +3680,7 @@ Sticky icon bar
     background: #bb0000;
     color: white;
 }
-------*/
-.darlene ul {
-    list-style-position: outside;
-}
 
-.darlene li {
-    margin: 0;
-    margin-left: 3em;
-}
-
-.darlene ul, li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.darlene li:before {
-    font-family: FontAwesome;
-    content: '\f006';
-    float: left;
-    color: #1abb9c;
-    margin-left: -1.5em;
-}
 
 /*------------------------------------
 Animations
