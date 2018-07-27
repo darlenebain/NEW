@@ -2751,7 +2751,6 @@ Page
 .page-header .breadcrumb li a {
     color: #fff;
 }
-
 /*------------------------------------
 Signup Login
 ------------------------------------*/
@@ -2775,6 +2774,8 @@ Signup Login
     background-color: #f7f7f7;
     margin: auto;
     text-align: left;
+    margin-top: 35px;
+    margin-bottom: 0px;
 }
 
 .signup-area .signup-login-bg .account-form .form-header, .login-area .signup-login-bg .account-form .form-header {
@@ -2787,6 +2788,7 @@ Signup Login
     float: left;
     width: 50%;
     font-weight: 400;
+    margin-bottom: 10px;
 }
 
 .signup-area .signup-login-bg .account-form .form-header .link, .login-area .signup-login-bg .account-form .form-header .link {
@@ -2900,7 +2902,6 @@ Signup Login
     border-radius: 15px;
     background-color: inherit;
 }
-
 /*------------------------------------
 404
 ------------------------------------*/
