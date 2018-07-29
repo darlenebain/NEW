@@ -588,6 +588,10 @@
 
 
 @media screen and (max-width: 579px) {
+    .nav-tabs li a{
+    font-size: 12px;
+  }
+
 
   .col-xs-6 {
     width: 100%;
@@ -654,6 +658,10 @@
 }
 }
 @media screen and (max-width: 479px) {
+
+  .nav-tabs li a{
+    font-size: 12px;
+  }
 
   .banner .banner-item .banner-content .banner-title {
     font-size: 30px !important;
