@@ -4207,3 +4207,19 @@ cookie notice
     padding-left: 15%;
     padding-right:15%;
 }
+
+@keyframes fontfaderin {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#ffi {
+   animation: fontfaderin 12s;
+}
