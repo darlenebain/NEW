@@ -396,6 +396,11 @@
     height: 45px;
     margin-left: 25px;
   }
+        .boxes{
+    padding-left: 20%;
+    padding-right:20%;
+    margin-bottom: 5%;
+}
 }
 /*** End 991 ***/
 @media screen and (max-width: 767px) {
@@ -583,6 +588,11 @@
     .container{
     margin-left:25px;
   }
+      .boxes{
+    padding-left: 35%;
+    padding-right:35%;
+    margin-bottom: 5%;
+}
 }
 
 
@@ -655,6 +665,11 @@
     color: white;
     font-size: 10px;
     border-radius: 2px;
+}
+        .boxes{
+    padding-left: 35%;
+    padding-right:35%;
+    margin-bottom: 5%;
 }
 }
 @media screen and (max-width: 479px) {
@@ -730,5 +745,10 @@
     color: white;
     font-size: 10px;
     border-radius: 2px;
+}
+  .boxes{
+    padding-left: 35%;
+    padding-right:35%;
+    margin-bottom: 5%;
 }
 }

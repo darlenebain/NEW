@@ -4203,3 +4203,7 @@ cookie notice
     background-size: cover;
     background-position: 0
 }
+.boxes{
+    padding-left: 15%;
+    padding-right:15%;
+}
