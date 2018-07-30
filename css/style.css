@@ -225,7 +225,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):focus, textarea:
 }
 
 .gray-bg {
-    background-color: #f7fafc;
+    background-color: #f1f1f1;
 }
 
 .mocks-background {
@@ -4193,4 +4193,11 @@ cookie notice
 
 .cc-floating.cc-theme-edgeless .cc-btn + .cc-btn {
     margin-left: 0
+}
+.featured-img-cont {
+    line-height: 0;
+    height: 150px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: 0
 }
