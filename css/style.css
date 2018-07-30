@@ -3752,27 +3752,20 @@ Animations
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
 }
-
 /*------------------------------------
 Form
 ------------------------------------*/
-.form-check-label {
-    font-weight: 400;
-    margin-left: 1rem;
-}
-
-.form-check {
-    font-weight: 400;
-    padding: 10px;
-}
 
 .form-check-input {
     margin-top: .3rem;
+    margin-left: 1.5rem;
     font-weight: 400;
 }
 
 .form-group {
-    padding: 10px;
+    padding-right: 30px;
+    padding-left: 0px;
+    margin-bottom: 1rem;
 }
 
 .applicationform {
@@ -3780,7 +3773,16 @@ Form
     width: 100%;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
+.form-check {
+    font-weight: 400;
+    padding: 10px;
+}
+
+.form-check-label {
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
 
 svg {
     display: block;
