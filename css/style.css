@@ -3589,60 +3589,95 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 /*------------------------------------
 Sticky icon bar - Social Media
 ------------------------------------*/
 
-.sticky-icon-bar {
-    padding: 0px;
-    margin: 0px;
-    position: fixed;
-    right: -170px;
-    top: 230px;
-    width: 210px;
-    z-index: 1100;
+a {
+  color: #fff;
+  text-decoration: none;
 }
 
-.sticky-icon li {
-    list-style-type: none;
-    background-color: #fff;
-    color: #efefef;
-    height: 43px;
-    padding: 0px;
-    margin: 0px 0px 1px 0px;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
-    cursor: pointer;
+.sticky-icon {
+  padding:0px;
+  margin:0px;
+  position: fixed;
+  left: -140px;
+  top: 375px;
+  z-index: 1100;
 }
 
-.sticky-icon li:hover {
-    margin-left: -115px;
+.sticky-icon ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
 }
 
-.sticky-icon li img {
-    float: left;
-    margin: 5px;
-    4px;
-    margin-right: 5px;
+.sticky-icon ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 200px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
 }
 
-.sticky-icon li p {
-    padding-top: 5px;
-    margin: 0px;
-    line-height: 16px;
-    font-size: 11px;
+.sticky-icon ul li:hover {
+  -webkit-transform: translate(110px, 0);
+  -moz-transform: translate(110px, 0);
+  -ms-transform: translate(110px, 0);
+  -o-transform: translate(110px, 0);
+  transform: translate(110px, 0);
+  background: rgba(255, 255, 255, 0.4);
 }
 
-.sticky-icon li p a {
-    text-decoration: none;
-    color: #2C3539;
+.sticky-icon ul li:hover a {
+  color: #000;
 }
 
-.sticky-icon li p a:hover {
-    text-decoration: underline;
+.sticky-icon ul li:hover i {
+  color: #fff;
+  background: #bdc3c7;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.sticky-icon ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 /*------------------------------------
