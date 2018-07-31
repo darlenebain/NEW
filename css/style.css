@@ -702,7 +702,7 @@ Buttons
     margin-top: 0;
     margin-bottom: 0;
     height: 60px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 
@@ -1301,7 +1301,7 @@ App About
 
 .counter-items .counter-item:nth-child(3) {
     top: 130px;
-    right: 0px;
+    right: 40px;
 }
 
 .counter-items .counter-item:nth-child(4) {
@@ -2660,6 +2660,7 @@ Feature
 
 .feature-box-area .feature-section-header .section-header {
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 .feature-box-area .feature-boxes .row {
@@ -2676,14 +2677,17 @@ Feature
     position: absolute;
     border: 0;
     top: 40px;
-    right: -50px;
+    left: 0px;
+    width: 80%;
 }
 
 .feature-box {
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    min-height: 150px;
 }
 
 .feature-box .icon i {
@@ -4265,8 +4269,11 @@ cookie notice
                         fill: #ffffff;
                     }
 
-.screenbox{
+.screenbox {
     max-width: 1280px;
     margin: 0 auto !important;
     float: none !important;
+}
+.about{
+    margin-left: 20px;
 }
