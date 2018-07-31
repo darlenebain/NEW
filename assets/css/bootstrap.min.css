@@ -5370,13 +5370,13 @@ a.badge:focus, a.badge:hover {
 }
 
 .container .jumbotron, .container-fluid .jumbotron {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
     border-radius: 6px
 }
 
 .jumbotron .container {
-    max-width: 100%
+    max-width: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -5386,8 +5386,8 @@ a.badge:focus, a.badge:hover {
     }
 
     .container .jumbotron, .container-fluid .jumbotron {
-        padding-right: 60px;
-        padding-left: 60px
+        padding-right: 0px;
+        padding-left: 0px
     }
 
     .jumbotron .h1, .jumbotron h1 {
