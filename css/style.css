@@ -52,6 +52,8 @@ body {
     color: #505050;
     line-height: 1.2em;
     font-weight: 300;
+    width: 100%;
+
 }
 
 p {
@@ -4225,5 +4227,11 @@ cookie notice
 }
 
 .whiteletters {
-                        fill: #fff;
+                        fill: #ffffff;
                     }
+
+.screenbox{
+    max-width: 1280px;
+    margin: 0 auto !important;
+    float: none !important;
+}
