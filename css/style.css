@@ -804,7 +804,7 @@ Buttons
 }
 
 .banner .banner-item {
-    height: 600px;
+    height: 500px;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -1199,7 +1199,8 @@ How Work
 ------------------------------------*/
 .how-it-works {
     margin-bottom: 0px;
-    height: 500px;
+    margin-top: -50px;
+    height: 450px;
 }
 
 .how-it-works .how-work-item {
