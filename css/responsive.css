@@ -31,6 +31,14 @@
   }
 }
 @media screen and (max-width: 991px) {
+   .how-it-works {
+    margin-bottom: 0px;
+      margin-top:-50px;
+    height: 300px;
+}
+    .nav-tabs li a{
+    font-size: 12px;
+  }
   .section-padding {
     padding: 80px 0;
   }
@@ -404,7 +412,21 @@
 }
 /*** End 991 ***/
 @media screen and (max-width: 767px) {
+    .how-it-works {
+    margin-bottom: 0px;
+      margin-top:-50px;
+    height: 850px;
+}
+    .nav-tabs li a{
+    font-size: 12px;
+  }
 
+  .boxes{
+    padding-left: 15%;
+    padding-right:15%;
+    padding-top: 25%;
+    margin-bottom: 50%;
+}
   .section-padding {
     padding: 60px 0;
   }
@@ -599,6 +621,12 @@
 
 
 @media screen and (max-width: 579px) {
+  .how-it-works {
+    margin-bottom: 0px;
+    height: 650px;
+    margin-top:-50px;
+
+}
     .nav-tabs li a{
     font-size: 12px;
   }
@@ -675,6 +703,10 @@
 }
 }
 @media screen and (max-width: 479px) {
+  .how-it-works {
+    margin-bottom: 0px;
+    height: 550px;
+}
 
   .nav-tabs li a{
     font-size: 12px;

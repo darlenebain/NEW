@@ -1198,7 +1198,8 @@ Buttons
 How Work
 ------------------------------------*/
 .how-it-works {
-    margin-bottom: -40px;
+    margin-bottom: 0px;
+    height: 500px;
 }
 
 .how-it-works .how-work-item {
@@ -4247,6 +4248,8 @@ cookie notice
 .boxes{
     padding-left: 15%;
     padding-right:15%;
+    padding-top: 25%;
+    margin-bottom: 25%;
 }
 
 @keyframes fontfaderin {
@@ -4774,4 +4777,49 @@ input[value="4"]:checked ~ * .-prev .nav-toggle:not([for="scene-3"]) {
 *, *:before, *:after {
   box-sizing: border-box;
   position: relative;
+}
+
+/*------------------------------------
+Flip container
+------------------------------------*/
+
+
+/* entire container, keeps perspective perspective: 1000px; */
+.flip-container {
+
+}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+    width: 100%;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
 }
