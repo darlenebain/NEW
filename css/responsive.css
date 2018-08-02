@@ -191,7 +191,7 @@
 
 
   .navbar-default.theme-bg-nav .navbar-nav .dropdown .dropdown-menu {
-    background-color: #1abb9c;
+    background-color: gray;
   }
   .navbar-default.theme-bg-nav .navbar-nav .dropdown .dropdown-menu > li > a {
     color: #ffffff;
@@ -205,7 +205,7 @@
     color: transparent;
   }
   .navbar-default.theme-bg-nav .navbar-collapse {
-    background-color: #1abb9c;
+    background-color: gray;
   }
   .navbar-default.theme-bg-nav .navbar-nav li.dropdown:before {
     color: #ffffff;
@@ -214,8 +214,6 @@
     color: #505050;
   }
   .navbar-default.default-bg-nav .navbar-nav .solid-item a {
-    background-image: -webkit-gradient(linear, left top, right top, from(#1abb9c), to(#49deff));
-    background-image: linear-gradient(90deg, #31abb9c 0%, #49deff 100%);
     color: #fff !important;
     display: inline-block;
   }
@@ -230,14 +228,13 @@
     background-color: #ffffff;
   }
   .navbar-default.default-bg-nav.affix .navbar-toggle {
-    border-color: #1abb9c;
     background-color: #ffffff;
   }
   .navbar-default.default-bg-nav.affix .navbar-toggle.collapsed {
     background-color: transparent;
   }
   .navbar-default.default-bg-nav.affix .navbar-toggle.collapsed .icon-bar {
-    background-color: #1abb9c;
+    background-color: gray;
   }
   .navbar-default.nav-style-2 .navbar-nav .solid-item a {
     display: inline-block;

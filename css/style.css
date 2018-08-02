@@ -3843,7 +3843,7 @@ svg {
 }
 
 .text-copy:nth-child(1) {
-    stroke: #1abb9c;
+    stroke: #black;
     animation-delay: -1;
 }
 
