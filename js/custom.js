@@ -248,3 +248,20 @@ jQuery(document).ready(function ($) {
         initCountTo();
     });
 });
+   /*-----------------------------------
+    Carousel
+    -----------------------------------*/
+
+        $(document).ready(function(){
+          $('.ct-box-slider').slick({
+            autoplay: true,
+            autoplaySpeed: 1000,
+            arrows: false,
+          });
+          $('#ct-js-box-slider--prev').on('click', function() {
+            $('.ct-js-box-slider').slick('slickPrev');
+          });
+          $('#ct-js-box-slider--next').on('click', function() {
+            $('.ct-js-box-slider').slick('slickNext');
+          });
+        });
