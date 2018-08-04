@@ -5044,3 +5044,9 @@ ct-box-slider{
 .ct-box .inner .fa {
   font-size: 64px;
 }
+
+.ukmap{
+    float: top;
+    width: 110%;
+    margin-top: -25%;
+}
