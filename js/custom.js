@@ -258,7 +258,7 @@ jQuery(document).ready(function ($) {
         $(document).ready(function(){
           $('.ct-box-slider').slick({
             autoplay: true,
-            autoplaySpeed: 1000,
+            autoplaySpeed: 4000,
             arrows: false,
             navigation: false,
             navigationText: ['<i class=\"fa fa-angle-left\"></i>', '<i class=\"fa fa-angle-right\"></i>'],
