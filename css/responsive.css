@@ -1,4 +1,10 @@
 @media screen and (max-width: 1199px) {
+      .screenbox {
+            width: 90%;
+    margin-left: auto !important;
+    margin-right: auto;
+    float: none !important;
+}
 .ukmap{
     float: top;
     width: 120%;
@@ -46,6 +52,12 @@
 }
 
 @media screen and (max-width: 991px) {
+      .screenbox {
+            width: 90%;
+    margin-left: auto !important;
+    margin-right: auto;
+    float: none !important;
+}
     .ukmap {
         visibility: hidden;
         margin: 0;
@@ -491,6 +503,12 @@
 
 /*** End 991 ***/
 @media screen and (max-width: 767px) {
+      .screenbox {
+            width: 90%;
+    margin-left: auto !important;
+    margin-right: auto;
+    float: none !important;
+}
     .ukmap {
         visibility: hidden;
         margin: 0;
@@ -732,6 +750,14 @@
 }
 
 @media screen and (max-width: 579px) {
+          .screenbox {
+            width: 90%;
+    margin-left: auto !important;
+    margin-right: auto;
+    float: none !important;
+}
+
+
     .ukmap {
         visibility: hidden;
         margin: 0;
@@ -831,6 +857,12 @@
 }
 
 @media screen and (max-width: 479px) {
+          .screenbox {
+            width: 90%;
+    margin-left: auto !important;
+    margin-right: auto;
+    float: none !important;
+}
     .ukmap {
         visibility: hidden;
         margin: 0;

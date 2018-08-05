@@ -62,9 +62,11 @@ jQuery(document).ready(function ($) {
             itemsTablet: [767, 3],
             itemsMobile: [479, 1],
             slideSpeed: 200,
-            navigation: true,
+            navigation: false,
             navigationText: ['<i class=\"fa fa-angle-left\"></i>', '<i class=\"fa fa-angle-right\"></i>'],
-            pagination: false
+            pagination: false,
+            autoPlay: 2000,
+            autoplayHoverPause: true,
         });
     }
     /*-----------------------------------------
@@ -89,11 +91,12 @@ jQuery(document).ready(function ($) {
         $('#screenshot-carousel-2').owlCarousel({
             singleItem:true,
             slideSpeed: 200,
-            autoPlay: 3000,
+            autoPlay: 2000,
             stopOnHover: true,
-            navigation: true,
+            navigation: false,
             navigationText: ['<i class=\"fa fa-angle-left\"></i>', '<i class=\"fa fa-angle-right\"></i>'],
-            pagination: false
+            pagination: false,
+            autoplayHoverPause: true,
         });
     }
 
@@ -257,6 +260,8 @@ jQuery(document).ready(function ($) {
             autoplay: true,
             autoplaySpeed: 1000,
             arrows: false,
+            navigation: false,
+            navigationText: ['<i class=\"fa fa-angle-left\"></i>', '<i class=\"fa fa-angle-right\"></i>'],
           });
           $('#ct-js-box-slider--prev').on('click', function() {
             $('.ct-js-box-slider').slick('slickPrev');
@@ -265,3 +270,4 @@ jQuery(document).ready(function ($) {
             $('.ct-js-box-slider').slick('slickNext');
           });
         });
+
