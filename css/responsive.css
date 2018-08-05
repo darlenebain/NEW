@@ -5,6 +5,13 @@
     margin-right: auto;
     float: none !important;
 }
+.feature-box-area .feature-box-img {
+    position: absolute;
+    border: 0;
+    margin-top: 80px;
+    margin-left: 0px;
+    width: 80%;
+}
 .ukmap{
     float: top;
     width: 120%;
@@ -52,6 +59,13 @@
 }
 
 @media screen and (max-width: 991px) {
+.feature-box-area .feature-box-img {
+    position: absolute;
+    border: 0;
+    top: 100px;
+    left: 0px;
+    width: 100%;
+}
       .screenbox {
             width: 90%;
     margin-left: auto !important;
@@ -503,6 +517,14 @@
 
 /*** End 991 ***/
 @media screen and (max-width: 767px) {
+
+.feature-box-area .feature-box-img {
+    position: absolute;
+    border: 0;
+    margin-top: 120px;
+    margin-left: 0px;
+    width: 80%;
+}
       .screenbox {
             width: 90%;
     margin-left: auto !important;
@@ -750,6 +772,13 @@
 }
 
 @media screen and (max-width: 579px) {
+        .feature-box-area .feature-box-img {
+    position: absolute;
+    border: 0;
+    top: 130px;
+    left: -20px;
+    width: 120%;
+}
           .screenbox {
             width: 90%;
     margin-left: auto !important;
