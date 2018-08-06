@@ -5108,3 +5108,7 @@ div#rssincl-box-1187676 {
     font-weight: normal;
     border-color: white;
 }
+.mctwitter{
+    max-height: 1500px;
+    overflow: scroll;
+}
