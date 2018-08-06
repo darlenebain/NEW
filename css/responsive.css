@@ -1,22 +1,24 @@
 @media screen and (max-width: 1199px) {
-      .screenbox {
-            width: 90%;
-    margin-left: auto !important;
-    margin-right: auto;
-    float: none !important;
-}
-.feature-box-area .feature-box-img {
-    position: absolute;
-    border: 0;
-    margin-top: 80px;
-    margin-left: 0px;
-    width: 80%;
-}
-.ukmap{
-    float: top;
-    width: 120%;
-    margin-top: -25%;
-}
+    .screenbox {
+        width: 90%;
+        margin-left: auto !important;
+        margin-right: auto;
+        float: none !important;
+    }
+
+    .feature-box-area .feature-box-img {
+        position: absolute;
+        border: 0;
+        margin-top: 80px;
+        margin-left: 0px;
+        width: 80%;
+    }
+
+    .ukmap {
+        float: top;
+        width: 200%;
+        margin-top: -10%;
+    }
 
     .how-it-works {
         margin-bottom: 0px;
@@ -59,19 +61,21 @@
 }
 
 @media screen and (max-width: 991px) {
-.feature-box-area .feature-box-img {
-    position: absolute;
-    border: 0;
-    top: 100px;
-    left: 0px;
-    width: 100%;
-}
-      .screenbox {
-            width: 90%;
-    margin-left: auto !important;
-    margin-right: auto;
-    float: none !important;
-}
+    .feature-box-area .feature-box-img {
+        position: absolute;
+        border: 0;
+        top: 100px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .screenbox {
+        width: 90%;
+        margin-left: auto !important;
+        margin-right: auto;
+        float: none !important;
+    }
+
     .ukmap {
         visibility: hidden;
         margin: 0;
@@ -517,22 +521,30 @@
 
 /*** End 991 ***/
 @media screen and (max-width: 767px) {
+    .no-fee {
+        margin: 0;
+        font-size: 20px;
+        line-height: 1;
+        color: #ffffff;
+    }
 
-.feature-box-area .feature-box-img {
-    position: absolute;
-    border: 0;
-    margin-top: 120px;
-    margin-left: 0px;
-    width: 80%;
-}
-      .screenbox {
-            width: 90%;
-    margin-left: auto !important;
-    margin-right: auto;
-    float: none !important;
-}
+    .feature-box-area .feature-box-img {
+        position: absolute;
+        border: 0;
+        margin-top: 120px;
+        margin-left: 0px;
+        width: 80%;
+    }
+
+    .screenbox {
+        width: 90%;
+        margin-left: auto !important;
+        margin-right: auto;
+        float: none !important;
+    }
+
     .ukmap {
-        visibility: hidden;
+        display: none;
         margin: 0;
 
     }
@@ -772,25 +784,32 @@
 }
 
 @media screen and (max-width: 579px) {
-        .feature-box-area .feature-box-img {
-    position: absolute;
-    border: 0;
-    top: 130px;
-    left: -20px;
-    width: 120%;
-}
-          .screenbox {
-            width: 90%;
-    margin-left: auto !important;
-    margin-right: auto;
-    float: none !important;
-}
-
-
-    .ukmap {
-        visibility: hidden;
+    .no-fee {
         margin: 0;
-        height: 250px;
+        font-size: 20px;
+        line-height: 1;
+        color: #ffffff;
+    }
+
+    .feature-box-area .feature-box-img {
+        position: absolute;
+        border: 0;
+        top: 130px;
+        left: -20px;
+        width: 120%;
+    }
+
+    .screenbox {
+        width: 90%;
+        margin-left: auto !important;
+        margin-right: auto;
+        float: none !important;
+    }
+
+   .ukmap {
+        display: none;
+        margin: 0;
+
     }
 
     .how-it-works {
@@ -886,15 +905,24 @@
 }
 
 @media screen and (max-width: 479px) {
-          .screenbox {
-            width: 90%;
-    margin-left: auto !important;
-    margin-right: auto;
-    float: none !important;
-}
-    .ukmap {
-        visibility: hidden;
+    .no-fee {
         margin: 0;
+        font-size: 20px;
+        line-height: 1;
+        color: #ffffff;
+    }
+
+    .screenbox {
+        width: 90%;
+        margin-left: auto !important;
+        margin-right: auto;
+        float: none !important;
+    }
+
+   .ukmap {
+        display: none;
+        margin: 0;
+
     }
 
     .how-it-works {

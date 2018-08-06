@@ -4296,6 +4296,7 @@ cookie notice
 }
 .about{
     margin-left: 20px;
+    max-height: 400px;
 }
 
 
@@ -5111,4 +5112,10 @@ div#rssincl-box-1187676 {
 .mctwitter{
     max-height: 1500px;
     overflow: scroll;
+}
+.no-fee{
+    margin: 0;
+    font-size: 40px;
+    line-height: 1;
+    color: #ffffff;
 }
