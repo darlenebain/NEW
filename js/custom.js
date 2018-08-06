@@ -82,6 +82,32 @@ jQuery(document).ready(function ($) {
             pagination: false,
         });
     }
+         if ($('#screenshot-carousel-3').length > 0) {
+        $('#screenshot-carousel-3').owlCarousel({
+            items: 3,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [991, 3],
+            itemsTablet: [767, 2],
+            itemsMobile: [479, 1],
+            slideSpeed: 200,
+            navigation: true,
+            navigationText: ['<i class=\"fa fa-angle-left\"></i>', '<i class=\"fa fa-angle-right\"></i>'],
+            pagination: false,
+        });
+    }
+             if ($('#screenshot-carousel-4').length > 0) {
+        $('#screenshot-carousel-4').owlCarousel({
+            items: 3,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [991, 3],
+            itemsTablet: [767, 2],
+            itemsMobile: [479, 1],
+            slideSpeed: 200,
+            navigation: true,
+            navigationText: ['<i class=\"fa fa-angle-left\"></i>', '<i class=\"fa fa-angle-right\"></i>'],
+            pagination: false,
+        });
+    }
     /*-----------------------------------------
     Mock slider-1
     -----------------------------------------*/
@@ -97,19 +123,6 @@ jQuery(document).ready(function ($) {
         });
     }
 
-    /*-----------------------------------------
-    Screenshot carousel 2
-    -----------------------------------------*/
-    if ($('#screenshot-carousel-2').length > 0) {
-        $('#screenshot-carousel-2').owlCarousel({
-            singleItem:true,
-            slideSpeed: 200,
-            stopOnHover: true,
-            navigation: true,
-            navigationText: ['<i class=\"fa fa-angle-left\"></i>', '<i class=\"fa fa-angle-right\"></i>'],
-            pagination: false,
-        });
-    }
 
     /*-----------------------------------------
     testimonial carousel 1

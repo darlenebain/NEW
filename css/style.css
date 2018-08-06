@@ -1538,6 +1538,48 @@ ScreenShots
     color: #2c5177;
 }
 
+.screenshot-carousel-3 .owl-prev,
+.screenshot-carousel-3 .owl-next {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 2rem;
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #2c5177;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.screenshot-carousel-4 .owl-prev,
+.screenshot-carousel-4 .owl-next {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 2rem;
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #2c5177;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.screenshot-carousel-4 .owl-prev i,
+.screenshot-carousel-4 .owl-next i {
+    color: #2c5177;
+}
+.screenshot-carousel-3 .owl-prev i,
+.screenshot-carousel-3 .owl-next i {
+    color: #2c5177;
+}
 .screenshot-carousel-2 .owl-prev i,
 .screenshot-carousel-2 .owl-next i {
     color: #2c5177;
@@ -1572,9 +1614,38 @@ ScreenShots
     padding: 10px 0;
 }
 
+.screenshot-carousel-3 .screenshot-item {
 
 
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+.screenshot-carousel-3 .owl-prev {
+    left: -25px;
+}
 
+.screenshot-carousel-3 .owl-next {
+    right: -25px;
+}
+.screenshot-carousel-4 .screenshot-item {
+
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+.screenshot-carousel-4 .owl-prev {
+    left: -25px;
+}
+
+.screenshot-carousel-4 .owl-next {
+    right: -25px;
+}
 
 
 /*------------------------------------
@@ -4362,12 +4433,13 @@ Blog - Education Page
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-
 .section-underline-title {
-     margin-bottom: 0px;
-     color: #757575;
+     margin-bottom: 10px;
+     color: #000;
      display: block;
-     border-bottom: 2px solid #bdc3c7;
+     font-size: 21px;
+     font-weight: normal;
+     border-bottom: 0.5px solid #e6e9ea;
      padding-bottom: 5px;
      padding-top: 6px;
 }
@@ -5073,37 +5145,10 @@ ct-box-slider{
 }
 
 
-.section-underline-title {
-     margin-bottom: 0px;
-     color: #000;
-     display: block;
-     font-weight: normal;
-     border-bottom: 0.5px solid #e6e9ea;
-     padding-bottom: 5px;
-     padding-top: 6px;
-}
 
 
 
-div#rssincl-box-1187676 *{
-	font-family: Arial, Helvetica, sans-serif;
-	text-align:left;
-	margin-bottom: 5px;
-	padding:0;
-	line-height:110%;
-	clear:both;
-}
 
-div#rssincl-box-1187676 {
-	width: 240px;
-	overflow-x:auto;
-	height: 500px;
-	overflow-y:auto;
-	}
-.SandboxRoot.var-fully-expanded .timeline-Viewport {
-     overflow-y: visible;
-     height: 500px;
-}
 .blocks{
     color: white;
     font-weight: normal;
