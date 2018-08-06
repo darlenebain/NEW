@@ -1515,6 +1515,34 @@ ScreenShots
     color: #2c5177;
 }
 
+.screenshot-carousel-2 .owl-prev,
+.screenshot-carousel-2 .owl-next {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 2rem;
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #2c5177;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.screenshot-carousel-2 .owl-prev i,
+.screenshot-carousel-2 .owl-next i {
+    color: #2c5177;
+}
+
+.screenshot-carousel-2 .owl-prev i,
+.screenshot-carousel-2 .owl-next i {
+    color: #2c5177;
+}
+
 .screenshot-carousel-1 .owl-prev {
     left: -50px;
 }
@@ -1522,46 +1550,32 @@ ScreenShots
 .screenshot-carousel-1 .owl-next {
     right: -50px;
 }
+.screenshot-carousel-2 .owl-prev {
+    left: -25px;
+}
+
+.screenshot-carousel-2 .owl-next {
+    right: -25px;
+}
 
 .screenshot-carousel-2 {
-    margin: -30px 0;
+    margin: 0;
 }
 
 .screenshot-carousel-2 .screenshot-item {
-    max-width: 630px;
-    margin: 0 auto;
-    padding: 30px 0;
+
+
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 0;
 }
 
-.screenshot-carousel-2 .screenshot-item img {
-    -webkit-box-shadow: 0px 15px 30px 0px rgba(37, 57, 110, 0.2);
-    box-shadow: 0px 15px 30px 0px rgba(37, 57, 110, 0.2);
-}
 
-.screenshot-carousel-2 .owl-controls .owl-prev, .screenshot-carousel-2 .owl-controls .owl-next {
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 2rem;
-    width: 40px;
-    height: 40px;
-    line-height: 37px;
-    border-radius: 50%;
-    background-color: #ffffff;
-    border: 1px solid #e9e9e9;
-    text-align: center;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
 
-.screenshot-carousel-2 .owl-controls .owl-next {
-    right: 120px;
-}
 
-.screenshot-carousel-2 .owl-controls .owl-prev {
-    left: 120px;
-}
+
 
 /*------------------------------------
 Pricing
