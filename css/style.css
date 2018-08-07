@@ -336,18 +336,6 @@ blockquote:before {
     display: block;
 }
 
-.banner-bottom-content .ride-banner-bottom:after {
-    font-family: FontAwesome;
-    content: "\f105";
-    right: 50px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 30px;
-    color: #2c5177;
-}
-
 .input-error, .newsletter-error {
     background-color: #e74c3c;
     color: #fff;
@@ -1575,61 +1563,6 @@ Testimonial
     margin-bottom: -50px;
 }
 
-/*------------------------------------
-Team
-------------------------------------*/
-.member {
-    text-align: center;
-}
-
-.member .member-image {
-    margin-bottom: 20px;
-}
-
-.member .member-image img {
-    max-width: 200px;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-
-.member .member-content .member-title {
-    font-size: 20px;
-    margin: 0;
-}
-
-.member .member-content .member-title a {
-    color: #222;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.member .member-content .member-position {
-    font-weight: 400;
-}
-
-.member .member-content .social {
-    line-height: 1;
-}
-
-.member .member-content .social a {
-    color: #a5a5a5;
-    font-size: 15px;
-}
-
-.member .member-content .social a + a {
-    padding-left: 8px;
-}
-
-.member .member-content .social a:hover {
-    color: #2c5177;
-}
-
-.member:hover .member-content .member-title a {
-    background-image: -webkit-gradient(linear, left top, right top, from(#00aff0), to(#99dff9));
-    background-image: linear-gradient(to right, #00aff0, #99dff9);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-}
 
 /*------------------------------------
 Download area
@@ -1652,9 +1585,6 @@ Download area
 /*------------------------------------
 Subscribe
 ------------------------------------*/
-.subscribe-area {
-    text-align: center;
-}
 
 .subscribe-area-2 {
     text-align: center;
@@ -1685,25 +1615,8 @@ Subscribe
     text-transform: uppercase;
 }
 
-.subscribe-area-2 .subscription-info {
-    float: left;
-    width: 100%;
-    color: #bcbcbc;
-    font-size: 14px;
-    font-weight: 400;
-}
-
 form {
     position: relative;
-}
-
-.subscribe-form {
-    width: 100%;
-    max-width: 570px;
-    margin: 37px auto 0;
-    border: 1px solid #ffffff;
-    border-radius: 25px;
-    overflow: hidden;
 }
 
 .subscribe-form input:not([type=submit]) {
@@ -1752,13 +1665,6 @@ form {
 
 .subscribe-body .logo {
     margin-bottom: 30px;
-}
-
-.subscribe-body .subscribe-heading {
-    font-size: 35px;
-    line-height: 48px;
-    color: #fff;
-    margin-bottom: 20px;
 }
 
 .subscribe-body .subscribe-heading span {
