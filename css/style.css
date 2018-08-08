@@ -3260,7 +3260,6 @@ Flip container
 .back {
     transform: rotateY(180deg);
 }
-
 /*------------------------------------
 Grid
 ------------------------------------*/
@@ -3547,8 +3546,8 @@ Grid
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    border-top: 1px solid #fff;
-    border-left: 1px solid #fff;
+    border-top: none;
+    border-left: none;
     border-bottom: 1px solid #fff;
     border-right: 1px solid #fff;
   }
@@ -3558,7 +3557,7 @@ Grid
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 3;
-    border-top: 1px solid #fff;
+    border-top: none;
     border-left: none;
     border-bottom: none;
     border-right: none;
@@ -3601,7 +3600,7 @@ Grid
     grid-row-start: 2;
     grid-row-end: 3;
     border-left: 1px solid #fff;
-    border-right: 1px solid #fff;
+    border-right: none;
     border-bottom: none;
   }
 
@@ -3610,7 +3609,7 @@ Grid
     grid-column-end: 2;
     grid-row-start: 7;
     grid-row-end: 9;
-    border-left: 1px solid #fff;
+    border-left: none;
     border-bottom: none;
     border-right: none;
   }
@@ -3664,7 +3663,7 @@ Grid
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 7;
-    border-left: 1px solid #fff;
+    border-left: none;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
     border-right: none;
@@ -3677,7 +3676,7 @@ Grid
     grid-row-end: 8;
     border-left: 1px solid #fff;
     border-top: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: none;
     border-right: none;
   }
 
@@ -3699,7 +3698,7 @@ Grid
     grid-row-end: 9;
     border-left: 1px solid #fff;
     border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
+    border-bottom: none;
     border-right: none;
   }
 
