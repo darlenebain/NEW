@@ -3296,7 +3296,7 @@ Grid
   tex-align: center;
 }
 
-.title {
+.gridtitle {
   font-size: 0px;
   margin-top: 0;
   color: #ffffff;
@@ -3529,7 +3529,7 @@ Grid
     margin: 100px auto;
   }
 
-  .title {
+  .gridtitle {
     font-size: 130px;
     margin-top: 0;
   }
