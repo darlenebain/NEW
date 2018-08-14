@@ -2,7 +2,7 @@
 // Variables
 $name = trim($_POST['name']);
 $email = trim($_POST['email']);
-$subject = "A message from Saas Trade";
+$subject = "A message from FBI";
 $message = trim($_POST['message']);
 
 // Email address validation - works with php 5.2+
@@ -20,7 +20,7 @@ if( isset($name) && isset($email) && isset($subject) && isset($message) && is_em
 	}
 
 	// Email will be send
-	$to = "uigigs@gmail.com"; // Change with your email address
+	$to = "info@freebusinessinfo.co.uk"; // Change with your email address
 	$sub = $subject; // You can define email subject
 	// HTML Elements for Email Body
 	$body = <<<EOD
