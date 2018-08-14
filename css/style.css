@@ -135,7 +135,10 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):focus, textarea:
 }
 
 .section-header2 {
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    font-size: 140%;
 }
 
 .section-header .top-title {
@@ -3129,10 +3132,10 @@ Blog - Education Page
 }
 
 .section-underline-title {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #000;
     display: block;
-    font-size: 21px;
+    font-size: 24px;
     font-weight: normal;
     border-bottom: 1px solid #e6e9ea;
     padding-bottom: 5px;
