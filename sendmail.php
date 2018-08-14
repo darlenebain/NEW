@@ -3,7 +3,7 @@
 $name = trim($_POST['name']);
 $email = trim($_POST['email']);
 $subject = "A message from FBI";
-$message = trim($_POST['message']);
+$message = trim($_POST['financeamount']);
 
 // Email address validation - works with php 5.2+
 function is_email_valid($email) {
