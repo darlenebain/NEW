@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    font-family: "Arial";
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     color: #505050;
     line-height: 1.2em;
@@ -59,7 +59,7 @@ h6,
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     line-height: 1.2;
     font-weight: 600;
-    font-family: "Arial";
+    font-family: Arial, Helvetica, sans-serif;
     color: #222222;
 }
 
@@ -93,7 +93,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):focus, textarea:
 }
 
 [type=submit] {
-    font-family: "Arial";
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 1px;
@@ -271,8 +271,8 @@ blockquote:before {
 
 .list-items li .fa {
     margin-right: 15px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177)), to(#2c5177));
-    background-image: linear-gradient(to right, #2c5177), #2c5177);
+    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#2c5177));
+    background-image: linear-gradient(to right, #2c5177, #2c5177);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -293,7 +293,7 @@ blockquote:before {
 .banner-bottom-content .ride-banner-bottom .ride-content .h6 {
     color: #2c5177;
     font-weight: 600;
-    font-family: "Arial";
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 16px;
     display: block;
@@ -326,8 +326,8 @@ blockquote:before {
 }
 
 .slick-dots li.slick-active button {
-    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177)), to(#2c5177));
-    background-image: linear-gradient(90deg, #2c5177) 0%, #35495d 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#2c5177));
+    background-image: linear-gradient(90deg, #2c5177 0%, #35495d 100%);
     border-color: #42c2fe;
 }
 
@@ -351,8 +351,8 @@ Buttons
 }
 
 .btn:hover {
-    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#2c5177)));
-    background-image: linear-gradient(90deg, #2c5177 0%, #2c5177) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#2c5177));
+    background-image: linear-gradient(90deg, #2c5177 0%, #2c5177 100%);
 }
 
 .btn:focus, .btn:active {
@@ -405,8 +405,8 @@ Buttons
 }
 
 .btn-gradient {
-    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#2c5177)));
-    background-image: linear-gradient(90deg, #2c5177 0%, #2c5177) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(#2c5177), to(#2c5177));
+    background-image: linear-gradient(90deg, #2c5177 0%, #2c5177 100%);
 }
 
 .btn-gradient:hover {
@@ -728,7 +728,6 @@ Buttons
 
 .banner .banner-item.banner-item-style-1 .banner-image .mocks-background {
     background: url(../images/mocks/elements-bg.png) no-repeat center center;
-    background-size: covor;
 }
 
 .banner .banner-item.banner-item-style-2 .banner-content .banner-title {
