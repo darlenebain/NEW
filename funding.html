@@ -41,45 +41,47 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
-
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" href="images/favicons/favicon.png" type="image/png">
 
-
-    <!--[if lt IE 9]>
+    <!-- Script -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.0.1.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="assets/js/visible.js"></script>
+    <script src="assets/js/jquery.countTo.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/html5shiv.min.js"></script>
     <script src="assets/js/respond.min.js"></script>
-    <![endif]-->
-    <script type="text/javascript">
-
-      $(document).ready(function() {
-
-        $("#fundingform").submit(function(){
-
-
-            $.ajax({
-              url: 'freebusinessinfo.co.uk/intelligence',
-              type: 'POST',
-              data:$('#fundingform').serialize(),
-              success: function(data) {
-                    if(data == 'OK') {
-                        console.log("ok");
-                        $('#message').html('<p>We will revert with a recommendation.</p>');
-                   } else { $('#message').html('<p>There is something wrong with form submission.</p>'); }
-              }
-            });
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+        window.addEventListener("load", function () {
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                        "background": "#eaf7f7",
+                        "text": "#5c7291"
+                    },
+                    "button": {
+                        "background": "#56cbdb",
+                        "text": "#ffffff"
+                    }
+                },
+                "position": "top",
+                "type": "opt-in"
+            })
         });
-      });
-   </script>
+    </script>
 </head>
 <body>
 
@@ -370,8 +372,8 @@
                 <div class="clearfix"></div>
                 <div class="text-right" style="margin-bottom: 50px; margin-right: 15px" ;>
                     <button type="submit" class="btn btn-primary blue-btn" value="Submit">Submit</button>
+                    <INPUT TYPE="hidden" NAME="redirect" VALUE="https://freebusinessinfo.co.uk/success.html">
                 </div>
-                <INPUT TYPE="hidden" NAME="redirect" VALUE="https://freebusinessinfo.co.uk/success.html">
             </form>
 
         </div>
@@ -397,17 +399,7 @@
         </li>
     </ul>
 </div>
-<!--- Sticky sidebar --->
 
-<nav class="sticky-icon">
-    <ul>
-        <li><a href="https://twitter.com/">Twitter <i class="fa fa-twitter"></i></a></li>
-        <li><a href="https://linkedin.com/">Linkedin <i class="fa fa-linkedin"></i></a></li>
-        <li><a href="http://googleplus.com/">Google+ <i class="fa fa-google-plus"></i></a></li>
-    </ul>
-</nav>
-
-<!--- Sticky sidebar --->
 <!-- footer -->
 <footer>
     <div>
@@ -419,16 +411,6 @@
     </div> <!-- #et-footer-nav -->
 </footer> <!-- #main-footer -->
 
-<!-- Script -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery-migrate-3.0.1.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/jquery.nav.js"></script>
-<script src="assets/js/owl.carousel.js"></script>
-<script src="assets/js/visible.js"></script>
-<script src="assets/js/jquery.countTo.js"></script>
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/jquery.ajaxchimp.min.js"></script>
-<script src="assets/js/slick.min.js"></script>
+
 </body>
 </html>
