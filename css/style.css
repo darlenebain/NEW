@@ -121,6 +121,9 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):focus, textarea:
 .section-padding {
     padding: 120px 0;
 }
+.subscribesection-padding {
+    padding: 60px 0;
+}
 
 .section-padding.bottom-0 {
     padding-bottom: 0;
