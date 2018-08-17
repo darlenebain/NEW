@@ -4302,3 +4302,20 @@ How does it work?
 
 
 /*END Form Wizard*/
+/*------------------------------------
+Our Promise to You
+------------------------------------*/
+
+.promise-text {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.col-container-promise {
+    display: flex;
+    width: 100%;
+}
+.col-promise {
+    flex: 1;
+    padding: 16px;
+}
