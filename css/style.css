@@ -4316,6 +4316,8 @@ Our Promise to You
     width: 100%;
 }
 .col-promise {
-    flex: 1;
-    padding: 16px;
+   border: 1px solid #bcbcbc;
+   border-radius: 0;
+   flex: 1;
+   padding: 16px 16px 16px 16px;
 }
