@@ -1638,7 +1638,9 @@ Faq & Contact
     -o-border-image: url(../images/faq/faq-border.png) 100 round;
     border-image: url(../images/faq/faq-border.png) 100 round;
 }
-
+.panel-body{
+    justify-content: left;
+}
 .faq-accordion .panel + .panel {
     margin-top: 0;
 }
