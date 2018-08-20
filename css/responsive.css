@@ -69,8 +69,12 @@
     }
 
     .ukmap {
-        visibility: hidden;
         margin: 0;
+        width: 80%;
+        float: center;
+        margin-top: -20%;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
@@ -378,6 +382,7 @@
 /*** End 991 ***/
 @media screen and (max-width: 767px) {
     .no-fee {
+        visibility: hidden;
         margin: 0;
         font-size: 20px;
         line-height: 1;
@@ -399,12 +404,15 @@
         float: none !important;
     }
 
-    .ukmap {
-        display: none;
+     .ukmap {
         margin: 0;
+        width: 80%;
+        float: center;
+        margin-top: -20%;
+        margin-left: auto;
+        margin-right: auto;
 
     }
-
     .how-it-works {
         margin-bottom: 0px;
         margin-top: -50px;
@@ -549,6 +557,7 @@
 
 @media screen and (max-width: 579px) {
     .no-fee {
+        visibility: hidden;
         margin: 0;
         font-size: 20px;
         line-height: 1;
@@ -654,6 +663,7 @@
 
 @media screen and (max-width: 479px) {
     .no-fee {
+        visibility: hidden;
         margin: 0;
         font-size: 20px;
         line-height: 1;
