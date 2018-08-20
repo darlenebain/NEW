@@ -52,9 +52,9 @@
 <div class="post-content">
 
 <h3 class="post-title">{{ page.title }}</h3>
-<p class="post-publication"><a href="{% page.publication %}">{% page.publication %}</a>{</p>
+<p class="post-publication"><a href="{{ page.publication }}">{{ page.publication }}</a>{</p>
 <p class="post-date">{{ page.date | date: "%d %B %Y" }}</p>
-<h4 class="post-title" style="margin-bottom: 25px">{{ block subtitle %}</h4>
+<h4 class="post-title" style="margin-bottom: 25px">{{ block subtitle }}</h4>
 
 <img class="img-responsive" src="{{ page.image }}" align="left" style="margin-left: 15px; margin-right: 20px"; alt=""/>
 {{ content }}
