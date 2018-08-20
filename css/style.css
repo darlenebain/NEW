@@ -2424,6 +2424,19 @@ Blog
 .post-list.post-list .post .post-content .post-excerpt {
     margin-bottom: 15px;
 }
+.post-publication {
+   font-size: 16px;
+   color: #757575;
+   margin-bottom: 0px;
+   text-align: left;
+}
+.post-date {
+   font-size: 12px;
+   color: #757575;
+   margin-top: 10px;
+   margin-bottom: 15px;
+   text-align: left;
+}
 
 /*------------------------------------
 Blog details
