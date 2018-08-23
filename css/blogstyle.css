@@ -72,7 +72,7 @@ dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
     max-width: 1500px;
     height: 100%;
     padding: 0;
-    padding: 0 20px
+    padding: 0 20px;
 }
 
 .content:after {
@@ -629,7 +629,7 @@ label {
 .panel, .panel-theme-darken, .panel-theme-lighten, .panel-theme-lighten-new, .panel-theme-semi-transparent, .panel-theme-semi-transparent-dark {
     padding: 54px 0 25px;
     color: #fff;
-    background: #b5b9bd
+    background: #b5b9bd;
 }
 
 .panel-theme-darken:after, .panel-theme-lighten-new:after, .panel-theme-lighten:after, .panel-theme-semi-transparent-dark:after, .panel-theme-semi-transparent:after, .panel:after {
@@ -727,7 +727,7 @@ label {
 }
 
 .panel-theme-semi-transparent {
-    color: #5a6470;
+    color: #b5b9bd;
     background-color: hsla(0, 0%, 100%, .85);
     padding: 35px 0 25px
 }
@@ -738,7 +738,7 @@ label {
 
 .panel-theme-semi-transparent-dark {
     color: #fff;
-    background: rgba(0, 0, 0, .4)
+    background: #b5b9bd;
 }
 
 .clearfix:after, .container:after {
@@ -2079,7 +2079,7 @@ em {
 
 a {
     color: #5a6470;
-    text-decoration: underline;
+
     font-weight: 500;
     cursor: pointer
 }
@@ -3601,6 +3601,10 @@ a {
     margin: 15px !important
 }
 
+.space-man {
+    margin: 0!important;    
+}
+
 .space-mvs {
     margin-top: 15px !important;
     margin-bottom: 15px !important
@@ -4532,7 +4536,7 @@ a {
 }
 
 .blog-panel-cont .cs-blog-post, .blog-panel-cont .grid-sizer {
-    width: 100%
+    width: 100%;
 }
 
 .blog-panel-cont .gutter-sizer {
@@ -4570,7 +4574,7 @@ a {
 }
 
 .blog-nav-mobile .select-mobile {
-    height: 50px;
+    height: 40px;
     border: 2px solid #fff;
     border-radius: 5px;
     font-size: 18px;
@@ -5084,11 +5088,12 @@ a {
 .cs-blog-post h3, .cs-blog-post h3 a {
     color: #dcaa74;
     font-size: 12px;
-    text-transform: uppercase
+    text-transform: uppercase;
+
 }
 
 .cs-blog-post h3 a:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .cs-blog-post h3 span:last-of-type span {
@@ -5319,3 +5324,5 @@ a {
     padding-left: 0;
     padding-right: 0
 }
+
+
