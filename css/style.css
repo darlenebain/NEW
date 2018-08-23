@@ -193,7 +193,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):focus, textarea:
 }
 
 .gray-bg {
-    background-color: #f1f1f1;
+    background-color: #b5b9bd;
 }
 
 .google-map {
@@ -647,6 +647,14 @@ Buttons
 
 .banner .banner-item {
     height: 500px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+}
+
+.bannerblog {
+    height: 70px;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -3272,6 +3280,7 @@ Scroll Box - Education
     border-bottom: 1px solid rgba(15, 70, 100, .12);
 }
 
+
 /*------------------------------------
 Flip container
 ------------------------------------*/
@@ -4189,13 +4198,15 @@ ct-box-slider {
     margin-top: -25%;
 }
 
-
-
-
 .mctwitter {
     max-height: 1800px;
-    overflow: scroll;
 }
+
+
+
+
+
+
 
 .no-fee {
     margin: 0;
@@ -4360,25 +4371,5 @@ Our Promise to You
     max-height: 800px;
     z-index: -2;
 }
-
-
-
-
-.twitter-row {
-    padding: 70px 0 65px;
-    background-image: url(data:image/svg+xml;charset=utf-8,%3Csvg viewBox='0 0 32 32' fill='white' xm…681 0-.287-.006-.569-.019-.85A13.216 13.216 0 0 0 32 7.076z'/%3E%3C/svg%3E);
-    background-color: #F4F8FB;
-    background-repeat: no-repeat;
-    background-position: -18px -20px;
-    background-size: 330px;
-    fill: #fff;
-}
-
-.twitter-wrapper {
-    max-width: 1340px;
-    margin: 0 auto;
-    padding: 0 2rem;
-}
-
 
 
