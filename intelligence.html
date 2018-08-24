@@ -2,14 +2,6 @@
 <html lang="en">
 
 <head>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123952422-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-123952422-1');
-    </script>
     <!-- Site information -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -39,14 +31,14 @@
     <meta property="og:locale" content="en_GB">
 
     <!-- External CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <link rel="stylesheet" href="assets/css/owl.transitions.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+
+
     <link rel="stylesheet" href="css/blogstyle.css">	
 
     <!-- Google Fonts -->
@@ -68,600 +60,731 @@
     <script src="assets/js/slick.min.js"></script>
     <script src="js/custom.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-    <script>
-        window.addEventListener("load", function () {
-            window.cookieconsent.initialise({
-                "palette": {
-                    "popup": {
-                        "background": "#eaf7f7",
-                        "text": "#5c7291"
-                    },
-                    "button": {
-                        "background": "#56cbdb",
-                        "text": "#ffffff"
-                    }
-                },
-                "position": "top",
-                "type": "opt-in"
-            })
-        });
-    </script>
-
     <![endif]-->
+
 </head>
-<body>
-		
-<!-- Navbar -->
-<nav class="navbar navbar-default theme-bg-nav" data-spy="affix" data-offset-top="20">
-    <div class="container">
-        <div class="screenbox">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#navbar-collapse"
-                        aria-expanded="false">
-                    <!--       <span class="sr-only">Toggle navigation</span> -->
-                    <span><i class="fa fa-bars" style="color: white; font-size: 24px;"></i></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="images/logos/whitelogofbi.svg" alt="FBI Logo" height="45px"></a>
-            </div>
 
-            <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Overview</a></li>
-                    <li class="dropdown"><a href="features.html">Features</a></li>
-                    <li><a href="funding.html">Funding</a></li>
-                    <li><a href="intelligence.html">Intelligence</a></li>
-                    <li class="solid-item"><a href="https://dashboard.freebusinessinfo.co.uk/login">Login</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</nav>
-
-
-	<div class="banner" id="banner">
-		<div class="banner-item banner-item-style-3 primary-gradient-bg">
-			<div class="banner-content" style="padding-left: 10%; padding-right: 10%;">
-				<h3 class="section-title"><img src="images/logos/whitelogofbi.svg" style="height: 50px; margin-bottom: 0px" alt="FBI Logo in Text"><span style="color:white; font-size: 60px;"> Intelligence</span></h3>
-			</div>
-		</div>
+<body class="default blog animate no-touch body-scrolled-content body-scrolled">
+<div class="click-eater"></div>
+<div class="body-fixer">
+	<div class="cs-background">
+		<div class="background-image" ng-style="backgroundScrollStyle"></div>
 	</div>
+	<div class="page-wrapper">
+		<div class="page">
+            <div class="cs-page">
+				    <span class="js-scroll-trigger" data-color-theme=""></span>
 
-	<div class="bannerblog" id="bannerblog">
-		<div class="bannerblog-item gray-bg">
-			<div class="bannerblog-content" style="padding-left: 10%; padding-right: 10%;">
-
-				<div class="panel-theme-semi-transparent-dark space-pvs">
-					<div class="content content--blog-nav">
-						<nav class="blog-nav hide show-m">
-							<ul class="space-man">
-								<li><a href="#" data-category="" class="pill-btn theme-clear space-mrm active blog-filter">All</a></li>
-								<li><a href="#" data-category="blog-financing" class="pill-btn theme-clear space-mrm blog-filter">Financing</a></li>
-								<li><a href="#" data-category="blog-technology" class="pill-btn theme-clear space-mrm blog-filter">Technology</a></li>
-								<li><a href="#" data-category="blog-tips" class="pill-btn theme-clear space-mrm blog-filter">Tips</a></li>
-								<li><a href="#" data-category="blog-insurance" class="pill-btn theme-clear space-mrm blog-filter">Insurance</a></li>
-							</ul>
-						</nav>
-						<nav class="blog-nav-mobile hide-m">
-							<select name="blog-filter-select" class="select-mobile js-mobile-blog-nav">
-								<option value="" selected="">All</option>
-								<option value="blog-financing">Financing</option>
-								<option value="blog-technology">Technology</option>
-								<option value="blog-tips">Tips</option>
-								<option value="blog-insurance">Insurance</option>
-							</select>
-							<span class="expand-icon">
-							<svg x="0px" y="0px" viewBox="0 0 612 612">
-								<g>
-								<path d="M363.027,208.653c-4.094-4.095-10.733-4.048-14.827,0.046L256,300.9l-92.2-92.2c-4.094-4.094-10.732-4.141-14.827-0.046
+	<div class="panel-theme-semi-transparent-dark space-pvs">
+        <div class="content content--blog-nav">
+            <nav class="blog-nav hide show-m">
+				<ul class="space-man">
+					<li><a href="#" data-category="" class="pill-btn theme-clear space-mrm active blog-filter">All</a></li>
+					<li><a href="#" data-category="blog-financing" class="pill-btn theme-clear space-mrm blog-filter">Financing</a></li>
+					<li><a href="#" data-category="blog-technology" class="pill-btn theme-clear space-mrm blog-filter">Technology</a></li>
+					<li><a href="#" data-category="blog-tips" class="pill-btn theme-clear space-mrm blog-filter">Tips</a></li>
+					<li><a href="#" data-category="blog-insurance" class="pill-btn theme-clear space-mrm blog-filter">Insurance</a></li>
+				</ul>
+			</nav>
+		
+			<nav class="blog-nav-mobile hide-m">
+				<select name="blog-filter-select" class="select-mobile js-mobile-blog-nav">
+					<option value="" selected="">All</option>
+					<option value="blog-financing">Financing</option>
+					<option value="blog-technology">Technology</option>
+					<option value="blog-tips">Tips</option>
+					<option value="blog-insurance">Insurance</option>
+				</select>
+			<span class="expand-icon">
+				<svg x="0px" y="0px" viewBox="0 0 612 612">
+					<g>
+					<path d="M363.027,208.653c-4.094-4.095-10.733-4.048-14.827,0.046L256,300.9l-92.2-92.2c-4.094-4.094-10.732-4.141-14.827-0.046
 c-4.141,4.141-4.095,10.779-0.001,14.874l97.939,97.939c0.41,0.653,0.891,1.275,1.46,1.844c2.116,2.116,4.883,3.134,7.629,3.083
 c2.747,0.051,5.513-0.967,7.63-3.083c0.569-0.569,1.05-1.191,1.46-1.844l97.939-97.939
 C367.122,219.433,367.168,212.794,363.027,208.653z"></path>
-								</g>
-							</svg>
-							</span>
-						</nav>
-					</div>
-				</div>	
-			</div>	
-		</div>	
-	</div>	
-
-
-	<div class="panel-theme-lighten-new space-pts">
-		<div class="content content--blog">
-			<div class="grid-12 space-ptxl blog--grid">
-				<div class="blog-panel-cont" style="position: relative; height: 5000px;">
-			
-							<div class="row" style="margin-left: 0.05%; margin-right: 0.05%">
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%; height: 676px">
-								<a class="twitter-timeline" href="https://twitter.com/fbitechuk?ref_src=twsrc%5Etfw" data-tweet-limit="2" data-aria-polite="assertive"></a>
-								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-							</div>
-							<div class="cs-blog-post space-pan blog-news" ng-class="categoryArr" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-										<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>
-								<div class="cs-blog-post space-pan blog-news" ng-class="categoryArr" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-										<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>
-									<div class="cs-blog-post space-pan blog-news" ng-class="categoryArr" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-										<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>
-								<div class="cs-blog-post space-pan blog-news" ng-class="categoryArr" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-										<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>
-							
-							</div>
-							<div class="cs-blog-post space-pan blog-news" ng-class="categoryArr" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-										<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>		
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>									
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>								
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>									
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>	
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>									
-							<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>									
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>								
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>	
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>	
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>	
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>	
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>	
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-								<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
-								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)"></figure></a>
-									<div class="post-container space-pan space-mhxl">
-										<h2 class="space-man space-pbs">
-										<span>
-											<a href="#" class="blog-filter" data-category="blog-news" style="color: #dcaa74; text-transform: uppercase;">Technology</a>
-										</span>
-										</h2>
-										<h2 class="space-mbs">
-											<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
-										</h2>
-										<article class="post-content">  
-										</article>
-										<aside class="post-meta">
-									<div class="author space-mtxs">
-											<p class="space-man">27 July 2018</p>
-										</aside>
-									</div>
-								</div>	
-								<div class="cs-blog-post space-pan blog-news" style="position: relative; width: 31%; float: left; margin: 1%;">
-									<a class="twitter-timeline" href="https://twitter.com/fbitechuk?ref_src=twsrc%5Etfw" data-tweet-limit="2" data-aria-polite="assertive"></a>
-									<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-								</div>								
-
-							</div>
-						</div>					
-					</div>
-				</div>
-			</div>
+					</g>
+				</svg>
+			</span>
+			</nav>
 		</div>
 	</div>
 
-		
+	<span class="js-scroll-trigger" data-color-theme="dark-theme"></span>
+	<section class="panel-theme-lighten-new space-ptn">
+	 <div class="content content--blog">
+            <div class="grid-12 space-ptxl blog--grid">
+                <div class="blog-panel-cont">
+                    <div class="grid-sizer"></div>
+                    <div class="gutter-sizer"></div>
+			
+                        <div class="cs-blog-post space-pan blog-news blog-press " ng-class="categoryArr"">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                                <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>										
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a></h2>
+                                <article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
 
-	</div>
-	</div>	
-	<br>
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+								<h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>	
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a></h2>
+                                <article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
 
-	
-	
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>	
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+										
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
+						
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>	
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
 
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
 
-<nav class="sticky-icon">
-    <ul>
-        <li><a href="https://twitter.com/fbitechuk">Twitter <i class="fa fa-twitter"></i></a></li>
-        <li><a href="https://linkedin.com/company/fbitechuk">Linkedin <i class="fa fa-linkedin"></i></a></li>
-    </ul>
-</nav>
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
 
-<!--- Sticky sidebar --->
-<!--- Sticky sidebar --->
-<!-- footer -->
-<footer>
-    <div>
-        <div class="container footer-bar" style="padding-top: 50px">
-            <a href="https://dashboard.freebusinessinfo.co.uk/privacy">PRIVACY</a>
-            <a href="https://dashboard.freebusinessinfo.co.uk/terms">TERMS</a>
-            <a href="https://dashboard.freebusinessinfo.co.uk/legal">FreeBusinessInfo.co.uk Copyright 2018</a>
-        </div>
-    </div> <!-- #et-footer-nav -->
-</footer> <!-- #main-footer -->
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>	
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>		
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>		
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>		
+
+                        <div class="cs-blog-post space-pan blog-news blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>			
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>		
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>	
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>	
+
+                        <div class="cs-blog-post space-pan blog-news blog-credit-cards " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>	
+
+                        <div class="cs-blog-post space-pan blog-helpful " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>	
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>	
+
+                        <div class="cs-blog-post space-pan blog-press " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>	
+
+                        <div class="cs-blog-post space-pan blog-news " ng-class="categoryArr">
+							<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">
+								<figure class="featured-img-cont" style="background-image: url(images/blog/4people-01.png)">
+								</figure>
+							</a>
+                            <div class="post-container space-pan space-mhxl">
+                             <h3 class="space-man space-pbs">
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-news">Technology</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                            <span>
+                                    <a href="#" class="blog-filter" data-category="blog-press">Press</a>
+                                    <span> ⋅ </span>
+                                </span>
+                                </h3>
+								<h2 class="space-mbs">
+									<a href="http://smallbusiness.co.uk/digital-transformation-website-seo-2544643/">Five ways to digitally transform your small business in 2018</a>
+								</h2>
+								<article class="post-content">  </article>
+								
+                                <aside class="post-meta">
+                                    <div class="author space-mtxs">
+                                        <p class="space-man">27 July 2018
+										</p>
+									</div>
+								</aside>
+							</div>
+						</div>
+
+                        <div class="cs-blog-post space-pan blog-press " ng-class="categoryArr">					
+							<div class="cs-blog-post space-pan blog-news" ng-class="categoryArr" ">
+								<a class="twitter-timeline" href="https://twitter.com/fbitechuk?ref_src=twsrc%5Etfw" data-tweet-limit="1" data-aria-polite="assertive"></a>
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</div>	
+					</div>	
+				</div>							
+			</section>					
+		</div>
+
 </body>
 </html>
+
