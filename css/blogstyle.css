@@ -51,7 +51,7 @@ body {
 dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
     margin-bottom: 24px;
     margin-bottom: 16px;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 .hide-visually {
@@ -62,7 +62,7 @@ dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
     overflow: hidden;
     padding: 0;
     position: absolute;
-    width: 1px
+    width: 1px;
 }
 
 .content {
@@ -71,26 +71,25 @@ dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
     margin-left: auto;
     max-width: 1500px;
     height: 100%;
-    padding: 0;
     padding: 0 20px;
 }
 
 .content:after {
     clear: both;
     content: "";
-    display: table
+    display: table;
 }
 
 .float-left {
-    float: left
+    float: left;
 }
 
 .float-right {
-    float: right
+    float: right;
 }
 
 .width100 {
-    width: 100%
+    width: 100%;
 }
 
 .page-content-cont {
@@ -4349,7 +4348,7 @@ a {
 .flex-content {
     padding: 0 30px;
     max-width: 1500px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .animate .carousel-container, .animate .equifax-logo {
@@ -5070,8 +5069,9 @@ a {
     color: #5a6470;
     overflow: hidden;
     margin-bottom: 20px;
+    margin-right: 20px;
     width: 100%;
-    float: left
+    float: left;
 }
 
 @media (min-width: 736px) {
