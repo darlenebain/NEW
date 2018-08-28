@@ -126,7 +126,7 @@ C367.122,219.433,367.168,212.794,363.027,208.653z"></path>
                                 <div class="gutter-sizer"></div>
 
                                 {% for post in site.posts %}
-                                <div class="cs-blog-post space-pan blog-news blog-press " ng-class="categoryArr">
+                                <div class="cs-blog-post space-pan blog-news blog-press {{ post.tags | join: ' ' }}" ng-class="categoryArr">
                                     <a href="{{ post.origin }}">
                                         <figure class="featured-img-cont" style="background-image: url({{ post.image }})">
                                         </figure>
