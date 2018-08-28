@@ -73,6 +73,21 @@
 </head>
 
 <body class="default blog animate no-touch body-scrolled-content body-scrolled">
+
+<script>
+    function display(tag) {
+        var divs = document.getElementsByClassName("cs-blog-post");
+        var hide = document.getElementsByClassName(tag) ;
+        [].forEach.call(document.querySelectorAll('.cs-blog-post'), function (el) {
+            el.style.visibility = 'hidden';
+        });
+        [].forEach.call(document.querySelectorAll('.' + tag), function (el) {
+            el.style.visibility = 'visible';
+        });
+    }
+
+</script>
+
 <div class="click-eater"></div>
 <div class="body-fixer">
     <div class="cs-background">
@@ -87,11 +102,11 @@
                     <div class="content content--blog-nav">
                         <nav class="blog-nav hide show-m">
                             <ul class="space-man">
-                                <li><a href="#" data-category="" class="pill-btn theme-clear space-mrm active blog-filter">All</a></li>
-                                <li><a href="#" data-category="blog-financing" class="pill-btn theme-clear space-mrm blog-filter">Financing</a></li>
-                                <li><a href="#" data-category="blog-technology" class="pill-btn theme-clear space-mrm blog-filter">Technology</a></li>
-                                <li><a href="#" data-category="blog-tips" class="pill-btn theme-clear space-mrm blog-filter">Tips</a></li>
-                                <li><a href="#" data-category="blog-insurance" class="pill-btn theme-clear space-mrm blog-filter">Insurance</a></li>
+                                <li><a href="#" data-category="" class="pill-btn theme-clear space-mrm active blog-filter" onclick="display('cs-blog-post')">All</a></li>
+                                <li><a href="#" data-category="blog-financing" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('financing')">Financing</a></li>
+                                <li><a href="#" data-category="blog-technology" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('technology')">Technology</a></li>
+                                <li><a href="#" data-category="blog-tips" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('tips')">Tips</a></li>
+                                <li><a href="#" data-category="blog-insurance" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('insurance')">Insurance</a></li>
                             </ul>
                         </nav>
 
