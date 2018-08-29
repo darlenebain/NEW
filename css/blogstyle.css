@@ -5072,6 +5072,7 @@ a {
     margin-right: 10px;
     width: 100%;
     float: left;
+    min-height: 330px;
 }
 
 @media (min-width: 736px) {
