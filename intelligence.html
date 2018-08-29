@@ -160,7 +160,7 @@ C367.122,219.433,367.168,212.794,363.027,208.653z"></path>
                                         <h3 class="space-man space-pbs">
                                             {% for tag in post.tags %}
                                             <span>
-                                    <a href="#" class="blog-filter" data-category="blog-news">{{ tag }}</a>
+                                    <a href="#" class="blog-filter" data-category="blog-news" onclick="display('{{ tag }}')">{{ tag }}</a>
                                     <span> ⋅ </span>
                                 </span>
                                             {% endfor %}
