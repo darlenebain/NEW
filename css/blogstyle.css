@@ -157,7 +157,7 @@ dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
 @media (min-width: 736px) {
     .hero {
         padding: 100px 0 0;
-        min-height: 350px
+        min-height: 360px
     }
 }
 
@@ -4835,7 +4835,7 @@ a {
     margin-right: 10px;
     width: 100%;
     float: left;
-    min-height: 350px;
+    min-height: 360px;
 }
 
 @media (min-width: 736px) {
@@ -4878,7 +4878,7 @@ a {
 
 .cs-blog-post .featured-img-cont {
     line-height: 0;
-    height: 150px;
+    height: 200px;
     overflow: hidden;
     background-size: cover;
     background-position: 0
