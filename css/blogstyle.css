@@ -51,7 +51,7 @@ body {
 dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
     margin-bottom: 24px;
     margin-bottom: 16px;
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
 .hide-visually {
@@ -62,7 +62,7 @@ dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
     overflow: hidden;
     padding: 0;
     position: absolute;
-    width: 1px
+    width: 1px;
 }
 
 .content {
@@ -71,26 +71,25 @@ dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
     margin-left: auto;
     max-width: 1500px;
     height: 100%;
-    padding: 0;
-    padding: 0 20px
+    padding: 0 20px;
 }
 
 .content:after {
     clear: both;
     content: "";
-    display: table
+    display: table;
 }
 
 .float-left {
-    float: left
+    float: left;
 }
 
 .float-right {
-    float: right
+    float: right;
 }
 
 .width100 {
-    width: 100%
+    width: 100%;
 }
 
 .page-content-cont {
@@ -158,7 +157,7 @@ dl, fieldset, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, table, ul {
 @media (min-width: 736px) {
     .hero {
         padding: 100px 0 0;
-        min-height: 350px
+        min-height: 360px
     }
 }
 
@@ -629,7 +628,7 @@ label {
 .panel, .panel-theme-darken, .panel-theme-lighten, .panel-theme-lighten-new, .panel-theme-semi-transparent, .panel-theme-semi-transparent-dark {
     padding: 54px 0 25px;
     color: #fff;
-    background: #b5b9bd
+    background: #b5b9bd;
 }
 
 .panel-theme-darken:after, .panel-theme-lighten-new:after, .panel-theme-lighten:after, .panel-theme-semi-transparent-dark:after, .panel-theme-semi-transparent:after, .panel:after {
@@ -727,7 +726,7 @@ label {
 }
 
 .panel-theme-semi-transparent {
-    color: #5a6470;
+    color: #b5b9bd;
     background-color: hsla(0, 0%, 100%, .85);
     padding: 35px 0 25px
 }
@@ -738,7 +737,7 @@ label {
 
 .panel-theme-semi-transparent-dark {
     color: #fff;
-    background: rgba(0, 0, 0, .4)
+    background: #b5b9bd;
 }
 
 .clearfix:after, .container:after {
@@ -2079,7 +2078,7 @@ em {
 
 a {
     color: #5a6470;
-    text-decoration: underline;
+
     font-weight: 500;
     cursor: pointer
 }
@@ -2416,120 +2415,6 @@ a {
     font-weight: 300
 }
 
-.navbar {
-    position: fixed;
-    width: 100%;
-    height: 70px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    z-index: 25;
-    left: 0;
-    right: 0;
-    transition: all .25s ease
-}
-
-.navbar:after {
-    clear: both;
-    content: "";
-    display: table
-}
-
-@media (min-width: 736px) {
-    .navbar {
-        height: 90px
-    }
-}
-
-@media (min-width: 1024px) {
-    .navbar {
-        height: 100px
-    }
-}
-
-@media (min-width: 1660px) {
-    .navbar {
-        background: hsla(0, 0%, 100%, .95);
-        border-bottom: 1px solid #8d9499
-    }
-}
-
-.learn-nav .navbar {
-    position: relative
-}
-
-.navbar .btn-secondary {
-    box-shadow: none;
-    padding: 5px;
-    border-radius: 5px
-}
-
-.navbar .login-btn {
-    border-radius: 5px;
-    border: 1px solid #0492bd;
-    color: #0492bd;
-    font-weight: 500;
-    width: 75px;
-    padding: 16px 0;
-    font-size: 18px;
-    background: hsla(0, 0%, 100%, 0);
-    position: absolute;
-    top: 7px;
-    right: 0;
-    text-align: center;
-    text-decoration: none
-}
-
-@media (min-width: 736px) {
-    .navbar .login-btn {
-        position: relative;
-        font-size: 16px !important;
-        letter-spacing: .4px;
-        color: #5a6470;
-        border: none;
-        top: 1px;
-        width: 88px;
-        text-align: center;
-        width: 88px !important;
-        border-radius: 0
-    }
-}
-
-@media (min-width: 1024px) {
-    .navbar .login-btn {
-        font-size: 18px;
-        width: 110px
-    }
-}
-
-@media (min-width: 736px) {
-    .navbar .navbar-logo {
-        display: none
-    }
-
-    .navbar .navbar-logo-symbol {
-        display: block
-    }
-}
-
-@media (min-width: 1024px) {
-    .navbar .navbar-logo {
-        display: block
-    }
-
-    .navbar .navbar-logo-symbol {
-        display: none
-    }
-}
-
-.navbar.page-scrolled .navbar-bg {
-    opacity: 1
-}
-
-.navbar .menu-icon .icon-state-hover {
-    display: none
-}
-
 .mobile-nav .ui-cont {
     height: 70px;
     position: relative;
@@ -2644,130 +2529,7 @@ a {
     flex-grow: 1
 }
 
-.navbar-content {
-    max-width: 100vw;
-    margin: 0 auto;
-    height: 70px;
-    z-index: 10;
-    position: relative;
-    border-top: none;
-    padding: 0 12px;
-    background: hsla(0, 0%, 100%, .95);
-    border-bottom: 1px solid #8d9499
-}
 
-@supports (-webkit-backdrop-filter:blur(40px)) {
-    .navbar-content {
-        -webkit-backdrop-filter: blur(40px);
-        background: hsla(0, 0%, 100%, .6)
-    }
-}
-
-@media (min-width: 736px) {
-    .navbar-content {
-        height: 90px;
-        padding: 0
-    }
-}
-
-@media (min-width: 1024px) {
-    .navbar-content {
-        height: 100px
-    }
-}
-
-@media (min-width: 1660px) {
-    .navbar-content {
-        background: hsla(0, 0%, 100%, 0)
-    }
-}
-
-.navbar-content:after {
-    clear: both;
-    content: "";
-    display: table
-}
-
-.navbar-content .nav-horizontal {
-    padding: 0;
-    display: none
-}
-
-.navbar-content .nav-horizontal.mobile-nav {
-    display: block
-}
-
-@media (min-width: 736px) {
-    .navbar-content .nav-horizontal {
-        display: inline-block;
-        float: left
-    }
-}
-
-@media (min-width: 736px) and (min-width: 1024px) {
-    .navbar-content .nav-horizontal {
-        float: right
-    }
-}
-
-@media (min-width: 736px) {
-    .navbar-content .nav-horizontal.mobile-nav {
-        display: none
-    }
-}
-
-.navbar-content .navbar-links {
-    font-size: 0;
-    float: right
-}
-
-.navbar-content .btn-clear {
-    font-weight: 300;
-    letter-spacing: .4px;
-    text-align: left;
-    color: #727e82;
-    font-size: 16px;
-    padding: 0
-}
-
-.navbar-content .btn-clear:hover {
-    color: #000
-}
-
-.navbar-logo {
-    margin: 15px 0 0;
-    display: inline-block;
-    text-align: left;
-    transform: none;
-    transition: all .3s ease
-}
-
-@media (min-width: 736px) {
-    .navbar-logo {
-        margin: 25px 0 0
-    }
-}
-
-@media (min-width: 1024px) {
-    .navbar-logo {
-        margin: 40px 0 0
-    }
-}
-
-.navbar-logo-symbol {
-    display: none;
-    margin-top: 33px;
-    margin-left: 40px
-}
-
-.navbar-logo-symbol svg {
-    width: 26px;
-    height: 28px
-}
-
-.navbar-logo-symbol svg * {
-    fill: #505050
-}
 
 .logo {
     width: 120px;
@@ -3601,6 +3363,10 @@ a {
     margin: 15px !important
 }
 
+.space-man {
+    margin: 0!important;    
+}
+
 .space-mvs {
     margin-top: 15px !important;
     margin-bottom: 15px !important
@@ -4345,7 +4111,7 @@ a {
 .flex-content {
     padding: 0 30px;
     max-width: 1500px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .animate .carousel-container, .animate .equifax-logo {
@@ -4532,45 +4298,45 @@ a {
 }
 
 .blog-panel-cont .cs-blog-post, .blog-panel-cont .grid-sizer {
-    width: 100%
+    width: 100%;
 }
 
 .blog-panel-cont .gutter-sizer {
-    width: 0
+    width: 0;
 }
 
 @media (min-width: 736px) {
     .blog-panel-cont .cs-blog-post, .blog-panel-cont .grid-sizer {
-        width: 49%
+        width: 49%;
     }
 
     .blog-panel-cont .gutter-sizer {
-        width: 2%
+        width: 2%;
     }
 }
 
 @media (min-width: 1024px) {
     .blog-panel-cont .cs-blog-post, .blog-panel-cont .grid-sizer {
-        width: 32%
+        width: 32%;
     }
 
     .blog-panel-cont .gutter-sizer {
-        width: 2%
+        width: 2%;
     }
 }
 
 .blog-nav li {
     display: inline-block;
-    margin: 10px 0
+    margin: 10px 0;
 }
 
 .blog-nav-mobile {
     position: relative;
-    height: 50px
+    height: 50px;
 }
 
 .blog-nav-mobile .select-mobile {
-    height: 50px;
+    height: 40px;
     border: 2px solid #fff;
     border-radius: 5px;
     font-size: 18px;
@@ -5065,9 +4831,11 @@ a {
     box-shadow: 0 1px 0 0 hsla(0, 0%, 83%, .4);
     color: #5a6470;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-right: 10px;
     width: 100%;
-    float: left
+    float: left;
+    min-height: 360px;
 }
 
 @media (min-width: 736px) {
@@ -5084,11 +4852,12 @@ a {
 .cs-blog-post h3, .cs-blog-post h3 a {
     color: #dcaa74;
     font-size: 12px;
-    text-transform: uppercase
+    text-transform: uppercase;
+
 }
 
 .cs-blog-post h3 a:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 .cs-blog-post h3 span:last-of-type span {
@@ -5109,7 +4878,7 @@ a {
 
 .cs-blog-post .featured-img-cont {
     line-height: 0;
-    height: 150px;
+    height: 200px;
     overflow: hidden;
     background-size: cover;
     background-position: 0
@@ -5319,3 +5088,5 @@ a {
     padding-left: 0;
     padding-right: 0
 }
+
+
