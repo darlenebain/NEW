@@ -1670,6 +1670,7 @@ Faq & Contact
     border-bottom: 1px solid #dbdbdb;
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    list-style-position: outside;
 }
 
 .faq-accordion .panel .panel-heading .panel-title a:before {
@@ -3017,7 +3018,7 @@ svg {
 }
 
 .fbi-container {
-    background: #34495e;
+    background: #2c5177;
     height: 150px;
     width: 150px;
     text-align: center;
