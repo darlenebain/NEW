@@ -78,6 +78,13 @@
     function sorter(a, b) {return parseInt(a.id.substring(1), 10) - parseInt(b.id.substring(1), 10) }
     function display(tag) {
         let inner = document.getElementById('inner') ;
+        let buttons = document.getElementsByClassName('blog-filter');
+        for(var i = 0; i < buttons.length; i++){
+            buttons[i].classList.remove("active");
+        }
+        let button = document.getElementById(tag + '-button');
+        button.classList.add("active");
+
 
         [].forEach.call(inner.querySelectorAll('.cs-blog-post'), function (el) {
             if (el.classList.contains(tag)) {
@@ -107,11 +114,11 @@
                     <div class="content content--blog-nav">
                         <nav class="blog-nav hide show-m">
                             <ul class="space-man">
-                                <li><a href="#" data-category="" class="pill-btn theme-clear space-mrm active blog-filter" onclick="display('cs-blog-post')">All</a></li>
-                                <li><a href="#" data-category="blog-financing" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('financing')">Financing</a></li>
-                                <li><a href="#" data-category="blog-technology" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('technology')">Technology</a></li>
-                                <li><a href="#" data-category="blog-tips" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('tips')">Tips</a></li>
-                                <li><a href="#" data-category="blog-insurance" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('insurance')">Insurance</a></li>
+                                <li><a href="#" id="all-button" data-category="" class="pill-btn theme-clear space-mrm active blog-filter" onclick="display('all')">All</a></li>
+                                <li><a href="#" id="financing-button" data-category="blog-financing" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('financing')">Financing</a></li>
+                                <li><a href="#" id="technology-button" data-category="blog-technology" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('technology')">Technology</a></li>
+                                <li><a href="#" id="tips-button" data-category="blog-tips" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('tips')">Tips</a></li>
+                                <li><a href="#" id="insurance-button" data-category="blog-insurance" class="pill-btn theme-clear space-mrm blog-filter" onclick="display('insurance')">Insurance</a></li>
                             </ul>
                         </nav>
 
