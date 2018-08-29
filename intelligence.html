@@ -75,15 +75,20 @@
 <body class="default blog animate no-touch body-scrolled-content body-scrolled">
 
 <script>
+    function sorter(a, b) {return parseInt(a.id.substring(1), 10) - parseInt(b.id.substring(1), 10) }
     function display(tag) {
-        var divs = document.getElementsByClassName("cs-blog-post");
-        var hide = document.getElementsByClassName(tag) ;
-        [].forEach.call(document.querySelectorAll('.cs-blog-post'), function (el) {
-            el.style.visibility = 'hidden';
+        let inner = document.getElementById('inner') ;
+
+        [].forEach.call(inner.querySelectorAll('.cs-blog-post'), function (el) {
+            if (el.classList.contains(tag)) {
+                el.style.display = 'inherit';
+            } else {
+                inner.removeChild(el);
+                inner.appendChild(el);
+                el.style.display = 'none';
+            }
         });
-        [].forEach.call(document.querySelectorAll('.' + tag), function (el) {
-            el.style.visibility = 'visible';
-        });
+        $('.cs-blog-post').sort(sorter).appendTo('#inner');
     }
 
 </script>
@@ -136,12 +141,10 @@ C367.122,219.433,367.168,212.794,363.027,208.653z"></path>
                 <section class="panel-theme-lighten-new space-ptn">
                     <div class="content content--blog">
                         <div class="grid-12 space-ptxl blog--grid">
-                            <div class="blog-panel-cont">
-                                <div class="grid-sizer"></div>
-                                <div class="gutter-sizer"></div>
-
+                            <div class="blog-panel-cont" id="container">
+                                <div id="inner">
                                 {% for post in site.posts %}
-                                <div class="cs-blog-post space-pan blog-news blog-press {{ post.tags | join: ' ' }}" ng-class="categoryArr">
+                                <div class="cs-blog-post space-pan blog-news blog-press all {{ post.tags | join: ' ' }}" id="p{{ forloop.index }}">
                                     <a href="{{ post.origin }}">
                                         <figure class="featured-img-cont" style="background-image: url({{ post.image }})">
                                         </figure>
@@ -169,6 +172,7 @@ C367.122,219.433,367.168,212.794,363.027,208.653z"></path>
                                     </div>
                                 </div>
                                 {% endfor %}
+                                </div>
 
                                 <div class="cs-blog-post space-pan blog-news" ng-class="categoryArr">
                                     <a class="twitter-timeline" href="https://twitter.com/fbitechuk?ref_src=twsrc%5Etfw" data-tweet-limit="1"
