@@ -5873,6 +5873,9 @@ a {
         margin-top: 23px;
         margin-right: 50px;
     }
+    .cs-blog-post {
+        width: 31%
+    }
 
 }
 @media screen and (max-width: 579px) {
@@ -5885,6 +5888,9 @@ a {
         margin-left: 0px;
         margin-top: 10px;
     }
+    .cs-blog-post {
+        width: 46%
+    }
 
 }
 
@@ -5896,5 +5902,23 @@ a {
         height: 45px;
         margin-left: 0px;
     }
+        .cs-blog-post {
+        width: 96%
+    }
 
+}
+@keyframes fontfaderin {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#ffi2 {
+    animation: fontfaderin 12s;
 }
