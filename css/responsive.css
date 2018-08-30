@@ -53,6 +53,10 @@
 }
 
 @media screen and (max-width: 991px) {
+        .twittybox{
+
+    height: 800px
+}
     .feature-box-area .feature-box-img {
         position: absolute;
         border: 0;
@@ -555,6 +559,7 @@
 }
 
 @media screen and (max-width: 579px) {
+
     .no-fee {
         margin: 0;
         font-size: 20px;
