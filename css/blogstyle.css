@@ -5873,6 +5873,9 @@ a {
         margin-top: 23px;
         margin-right: 50px;
     }
+    .cs-blog-post {
+        width: 31%
+    }
 
 }
 @media screen and (max-width: 579px) {
@@ -5885,6 +5888,9 @@ a {
         margin-left: 0px;
         margin-top: 10px;
     }
+            .cs-blog-post {
+        width: 48%
+    }
 
 }
 
@@ -5895,6 +5901,9 @@ a {
     .navbar-brand {
         height: 45px;
         margin-left: 0px;
+    }
+        .cs-blog-post {
+        width: 98%
     }
 
 }
