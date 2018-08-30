@@ -5634,10 +5634,13 @@ a {
 
     .navbar-brand {
         height: 45px;
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
 @media screen and (max-width: 991px) {
+     .container {
+        margin-left: 0px;
+    }
     /*** Navigation ***/
     .navbar-default .navbar-header {
         float: none;
@@ -5850,6 +5853,9 @@ a {
 
 }
 @media screen and (max-width: 767px) {
+     .container {
+        margin-left: 0px;
+    }
     .navbar-default .navbar-brand {
         margin-top: 10px;
         margin-left: 0px;
@@ -5870,6 +5876,9 @@ a {
 
 }
 @media screen and (max-width: 579px) {
+     .container {
+        margin-left: 0px;
+    }
 
     .navbar-brand {
         height: 45px;
@@ -5880,6 +5889,9 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+     .container {
+        margin-left: 0px;
+    }
     .navbar-brand {
         height: 45px;
         margin-left: 0px;
