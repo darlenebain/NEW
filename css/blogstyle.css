@@ -5888,7 +5888,7 @@ a {
         margin-left: 0px;
         margin-top: 10px;
     }
-            .cs-blog-post {
+    .cs-blog-post {
         width: 46%
     }
 
@@ -5906,4 +5906,19 @@ a {
         width: 96%
     }
 
+}
+@keyframes fontfaderin {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#ffi {
+    animation: fontfaderin 12s;
 }
