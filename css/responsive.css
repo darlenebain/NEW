@@ -369,9 +369,13 @@
     .comingsoon-social .social {
         text-align: center;
     }
+    .navbar-default .navbar-brand {
+        margin-top: 10px;
+        margin-left: 50px;
+    }
 
     .navbar-brand {
-        margin-top: 5px;
+        margin-top: 10px;
         height: 45px;
         margin-right: 50px;
     }
